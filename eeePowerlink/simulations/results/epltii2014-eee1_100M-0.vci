@@ -1,0 +1,1717 @@
+file 6539763 1395215302                                         
+version 2
+run eee1_100M-0-20140319-08:48:18-68271
+attr configname eee1_100M
+attr datetime 20140319-08:48:18
+attr experiment eee1_100M
+attr inifile EPL_tii2014.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network eeepowerlink.networks.EPL_tii2014
+attr processid 68271
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 545  EPL_tii2014.PLC.lpi_client  "EEE-Link Power"  ETV
+vector 543  EPL_tii2014.PLC.MN  "EEE-Link Power"  ETV
+vector 546  EPL_tii2014.PLC.lpi_client  "NoEEE-Link Power"  ETV
+vector 544  EPL_tii2014.PLC.MN  "NoEEE-Link Power"  ETV
+vector 547  EPL_tii2014.Subnet1_Host[0].lpi_client  "EEE-Link Power"  ETV
+vector 548  EPL_tii2014.Subnet1_Host[0].lpi_client  "NoEEE-Link Power"  ETV
+vector 549  EPL_tii2014.Subnet1_Host[1].lpi_client  "EEE-Link Power"  ETV
+vector 550  EPL_tii2014.Subnet1_Host[1].lpi_client  "NoEEE-Link Power"  ETV
+vector 551  EPL_tii2014.Subnet1_Host[2].lpi_client  "EEE-Link Power"  ETV
+vector 552  EPL_tii2014.Subnet1_Host[2].lpi_client  "NoEEE-Link Power"  ETV
+vector 553  EPL_tii2014.Subnet1_Host[3].lpi_client  "EEE-Link Power"  ETV
+vector 554  EPL_tii2014.Subnet1_Host[3].lpi_client  "NoEEE-Link Power"  ETV
+vector 555  EPL_tii2014.Subnet1_Host[4].lpi_client  "EEE-Link Power"  ETV
+vector 556  EPL_tii2014.Subnet1_Host[4].lpi_client  "NoEEE-Link Power"  ETV
+vector 557  EPL_tii2014.Subnet1_Host[5].lpi_client  "EEE-Link Power"  ETV
+vector 558  EPL_tii2014.Subnet1_Host[5].lpi_client  "NoEEE-Link Power"  ETV
+vector 559  EPL_tii2014.Subnet1_Host[6].lpi_client  "EEE-Link Power"  ETV
+vector 560  EPL_tii2014.Subnet1_Host[6].lpi_client  "NoEEE-Link Power"  ETV
+vector 561  EPL_tii2014.Subnet1_Host[7].lpi_client  "EEE-Link Power"  ETV
+vector 562  EPL_tii2014.Subnet1_Host[7].lpi_client  "NoEEE-Link Power"  ETV
+vector 563  EPL_tii2014.Subnet1_Host[8].lpi_client  "EEE-Link Power"  ETV
+vector 564  EPL_tii2014.Subnet1_Host[8].lpi_client  "NoEEE-Link Power"  ETV
+vector 565  EPL_tii2014.Subnet1_Host[9].lpi_client  "EEE-Link Power"  ETV
+vector 566  EPL_tii2014.Subnet1_Host[9].lpi_client  "NoEEE-Link Power"  ETV
+vector 567  EPL_tii2014.Subnet1_Host[10].lpi_client  "EEE-Link Power"  ETV
+vector 568  EPL_tii2014.Subnet1_Host[10].lpi_client  "NoEEE-Link Power"  ETV
+vector 569  EPL_tii2014.Subnet1_Host[11].lpi_client  "EEE-Link Power"  ETV
+vector 570  EPL_tii2014.Subnet1_Host[11].lpi_client  "NoEEE-Link Power"  ETV
+vector 571  EPL_tii2014.Subnet1_Host[12].lpi_client  "EEE-Link Power"  ETV
+vector 572  EPL_tii2014.Subnet1_Host[12].lpi_client  "NoEEE-Link Power"  ETV
+vector 573  EPL_tii2014.Subnet1_Host[13].lpi_client  "EEE-Link Power"  ETV
+vector 574  EPL_tii2014.Subnet1_Host[13].lpi_client  "NoEEE-Link Power"  ETV
+vector 575  EPL_tii2014.Subnet1_Host[14].lpi_client  "EEE-Link Power"  ETV
+vector 576  EPL_tii2014.Subnet1_Host[14].lpi_client  "NoEEE-Link Power"  ETV
+vector 577  EPL_tii2014.Subnet1_Host[15].lpi_client  "EEE-Link Power"  ETV
+vector 578  EPL_tii2014.Subnet1_Host[15].lpi_client  "NoEEE-Link Power"  ETV
+vector 579  EPL_tii2014.Subnet1_Host[16].lpi_client  "EEE-Link Power"  ETV
+vector 580  EPL_tii2014.Subnet1_Host[16].lpi_client  "NoEEE-Link Power"  ETV
+vector 581  EPL_tii2014.Subnet1_Host[17].lpi_client  "EEE-Link Power"  ETV
+vector 582  EPL_tii2014.Subnet1_Host[17].lpi_client  "NoEEE-Link Power"  ETV
+vector 583  EPL_tii2014.Subnet1_Host[18].lpi_client  "EEE-Link Power"  ETV
+vector 584  EPL_tii2014.Subnet1_Host[18].lpi_client  "NoEEE-Link Power"  ETV
+vector 585  EPL_tii2014.Subnet1_Host[19].lpi_client  "EEE-Link Power"  ETV
+vector 586  EPL_tii2014.Subnet1_Host[19].lpi_client  "NoEEE-Link Power"  ETV
+vector 587  EPL_tii2014.Subnet2_Host[0].lpi_client  "EEE-Link Power"  ETV
+vector 588  EPL_tii2014.Subnet2_Host[0].lpi_client  "NoEEE-Link Power"  ETV
+vector 589  EPL_tii2014.Subnet2_Host[1].lpi_client  "EEE-Link Power"  ETV
+vector 590  EPL_tii2014.Subnet2_Host[1].lpi_client  "NoEEE-Link Power"  ETV
+vector 591  EPL_tii2014.Subnet2_Host[2].lpi_client  "EEE-Link Power"  ETV
+vector 592  EPL_tii2014.Subnet2_Host[2].lpi_client  "NoEEE-Link Power"  ETV
+vector 593  EPL_tii2014.Subnet2_Host[3].lpi_client  "EEE-Link Power"  ETV
+vector 594  EPL_tii2014.Subnet2_Host[3].lpi_client  "NoEEE-Link Power"  ETV
+vector 595  EPL_tii2014.Subnet2_Host[4].lpi_client  "EEE-Link Power"  ETV
+vector 596  EPL_tii2014.Subnet2_Host[4].lpi_client  "NoEEE-Link Power"  ETV
+vector 597  EPL_tii2014.Subnet2_Host[5].lpi_client  "EEE-Link Power"  ETV
+vector 598  EPL_tii2014.Subnet2_Host[5].lpi_client  "NoEEE-Link Power"  ETV
+vector 599  EPL_tii2014.Subnet2_Host[6].lpi_client  "EEE-Link Power"  ETV
+vector 600  EPL_tii2014.Subnet2_Host[6].lpi_client  "NoEEE-Link Power"  ETV
+vector 601  EPL_tii2014.Subnet2_Host[7].lpi_client  "EEE-Link Power"  ETV
+vector 602  EPL_tii2014.Subnet2_Host[7].lpi_client  "NoEEE-Link Power"  ETV
+vector 603  EPL_tii2014.Subnet2_Host[8].lpi_client  "EEE-Link Power"  ETV
+vector 604  EPL_tii2014.Subnet2_Host[8].lpi_client  "NoEEE-Link Power"  ETV
+vector 605  EPL_tii2014.Subnet2_Host[9].lpi_client  "EEE-Link Power"  ETV
+vector 606  EPL_tii2014.Subnet2_Host[9].lpi_client  "NoEEE-Link Power"  ETV
+vector 607  EPL_tii2014.DC_CN1.lpi_client  "EEE-Link Power"  ETV
+vector 608  EPL_tii2014.DC_CN1.lpi_client  "NoEEE-Link Power"  ETV
+vector 609  EPL_tii2014.DC_CN2.lpi_client  "EEE-Link Power"  ETV
+vector 610  EPL_tii2014.DC_CN2.lpi_client  "NoEEE-Link Power"  ETV
+vector 533  EPL_tii2014.switch0  "EEE-Link Power"  ETV
+vector 534  EPL_tii2014.switch0  "NoEEE-Link Power"  ETV
+vector 535  EPL_tii2014.switch1  "EEE-Link Power"  ETV
+vector 536  EPL_tii2014.switch1  "NoEEE-Link Power"  ETV
+vector 537  EPL_tii2014.switch2  "EEE-Link Power"  ETV
+vector 538  EPL_tii2014.switch2  "NoEEE-Link Power"  ETV
+vector 539  EPL_tii2014.DC_CN1.internalHub_EEE  "EEE-Link Power"  ETV
+vector 540  EPL_tii2014.DC_CN1.internalHub_EEE  "NoEEE-Link Power"  ETV
+vector 541  EPL_tii2014.DC_CN2.internalHub_EEE  "EEE-Link Power"  ETV
+vector 542  EPL_tii2014.DC_CN2.internalHub_EEE  "NoEEE-Link Power"  ETV
+vector 17  EPL_tii2014.PLC.lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 5  EPL_tii2014.PLC.llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 13  EPL_tii2014.PLC.mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 0  EPL_tii2014.switch0  pk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  pk
+attr title  "packets, vector(packetBytes)"
+vector 8  EPL_tii2014.PLC.mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 1  EPL_tii2014.switch1  pk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  pk
+attr title  "packets, vector(packetBytes)"
+vector 2  EPL_tii2014.switch2  pk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  pk
+attr title  "packets, vector(packetBytes)"
+vector 515  EPL_tii2014.DC_CN1.internalHub_EEE  pk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  pk
+attr title  "packets, vector(packetBytes)"
+vector 505  EPL_tii2014.DC_CN1.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 506  EPL_tii2014.DC_CN1.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 502  EPL_tii2014.DC_CN1.llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 513  EPL_tii2014.DC_CN1.lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 532  EPL_tii2014.DC_CN2.internalHub_EEE  pk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  pk
+attr title  "packets, vector(packetBytes)"
+vector 25  EPL_tii2014.Subnet1_Host[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 26  EPL_tii2014.Subnet1_Host[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 41  EPL_tii2014.Subnet1_Host[1].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 42  EPL_tii2014.Subnet1_Host[1].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 57  EPL_tii2014.Subnet1_Host[2].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 58  EPL_tii2014.Subnet1_Host[2].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 73  EPL_tii2014.Subnet1_Host[3].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 74  EPL_tii2014.Subnet1_Host[3].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 89  EPL_tii2014.Subnet1_Host[4].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 90  EPL_tii2014.Subnet1_Host[4].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 105  EPL_tii2014.Subnet1_Host[5].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 106  EPL_tii2014.Subnet1_Host[5].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 121  EPL_tii2014.Subnet1_Host[6].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 122  EPL_tii2014.Subnet1_Host[6].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 137  EPL_tii2014.Subnet1_Host[7].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 138  EPL_tii2014.Subnet1_Host[7].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 153  EPL_tii2014.Subnet1_Host[8].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 154  EPL_tii2014.Subnet1_Host[8].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 169  EPL_tii2014.Subnet1_Host[9].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 170  EPL_tii2014.Subnet1_Host[9].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 185  EPL_tii2014.Subnet1_Host[10].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 186  EPL_tii2014.Subnet1_Host[10].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 201  EPL_tii2014.Subnet1_Host[11].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 202  EPL_tii2014.Subnet1_Host[11].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 217  EPL_tii2014.Subnet1_Host[12].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 218  EPL_tii2014.Subnet1_Host[12].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 233  EPL_tii2014.Subnet1_Host[13].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 234  EPL_tii2014.Subnet1_Host[13].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 249  EPL_tii2014.Subnet1_Host[14].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 250  EPL_tii2014.Subnet1_Host[14].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 265  EPL_tii2014.Subnet1_Host[15].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 266  EPL_tii2014.Subnet1_Host[15].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 281  EPL_tii2014.Subnet1_Host[16].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 282  EPL_tii2014.Subnet1_Host[16].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 297  EPL_tii2014.Subnet1_Host[17].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 298  EPL_tii2014.Subnet1_Host[17].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 313  EPL_tii2014.Subnet1_Host[18].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 314  EPL_tii2014.Subnet1_Host[18].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 329  EPL_tii2014.Subnet1_Host[19].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 330  EPL_tii2014.Subnet1_Host[19].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 345  EPL_tii2014.Subnet2_Host[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 346  EPL_tii2014.Subnet2_Host[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 361  EPL_tii2014.Subnet2_Host[1].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 362  EPL_tii2014.Subnet2_Host[1].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 377  EPL_tii2014.Subnet2_Host[2].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 378  EPL_tii2014.Subnet2_Host[2].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 393  EPL_tii2014.Subnet2_Host[3].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 394  EPL_tii2014.Subnet2_Host[3].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 409  EPL_tii2014.Subnet2_Host[4].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 410  EPL_tii2014.Subnet2_Host[4].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 425  EPL_tii2014.Subnet2_Host[5].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 426  EPL_tii2014.Subnet2_Host[5].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 441  EPL_tii2014.Subnet2_Host[6].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 442  EPL_tii2014.Subnet2_Host[6].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 457  EPL_tii2014.Subnet2_Host[7].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 458  EPL_tii2014.Subnet2_Host[7].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 473  EPL_tii2014.Subnet2_Host[8].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 474  EPL_tii2014.Subnet2_Host[8].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 489  EPL_tii2014.Subnet2_Host[9].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 490  EPL_tii2014.Subnet2_Host[9].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 22  EPL_tii2014.Subnet1_Host[0].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 38  EPL_tii2014.Subnet1_Host[1].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 54  EPL_tii2014.Subnet1_Host[2].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 70  EPL_tii2014.Subnet1_Host[3].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 86  EPL_tii2014.Subnet1_Host[4].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 102  EPL_tii2014.Subnet1_Host[5].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 118  EPL_tii2014.Subnet1_Host[6].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 134  EPL_tii2014.Subnet1_Host[7].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 150  EPL_tii2014.Subnet1_Host[8].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 166  EPL_tii2014.Subnet1_Host[9].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 182  EPL_tii2014.Subnet1_Host[10].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 198  EPL_tii2014.Subnet1_Host[11].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 214  EPL_tii2014.Subnet1_Host[12].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 230  EPL_tii2014.Subnet1_Host[13].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 246  EPL_tii2014.Subnet1_Host[14].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 262  EPL_tii2014.Subnet1_Host[15].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 278  EPL_tii2014.Subnet1_Host[16].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 294  EPL_tii2014.Subnet1_Host[17].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 310  EPL_tii2014.Subnet1_Host[18].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 326  EPL_tii2014.Subnet1_Host[19].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 342  EPL_tii2014.Subnet2_Host[0].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 358  EPL_tii2014.Subnet2_Host[1].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 374  EPL_tii2014.Subnet2_Host[2].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 390  EPL_tii2014.Subnet2_Host[3].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 406  EPL_tii2014.Subnet2_Host[4].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 422  EPL_tii2014.Subnet2_Host[5].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 438  EPL_tii2014.Subnet2_Host[6].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 454  EPL_tii2014.Subnet2_Host[7].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 470  EPL_tii2014.Subnet2_Host[8].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 486  EPL_tii2014.Subnet2_Host[9].llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 33  EPL_tii2014.Subnet1_Host[0].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 49  EPL_tii2014.Subnet1_Host[1].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 65  EPL_tii2014.Subnet1_Host[2].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 81  EPL_tii2014.Subnet1_Host[3].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 97  EPL_tii2014.Subnet1_Host[4].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 113  EPL_tii2014.Subnet1_Host[5].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 129  EPL_tii2014.Subnet1_Host[6].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 145  EPL_tii2014.Subnet1_Host[7].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 161  EPL_tii2014.Subnet1_Host[8].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 177  EPL_tii2014.Subnet1_Host[9].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 193  EPL_tii2014.Subnet1_Host[10].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 209  EPL_tii2014.Subnet1_Host[11].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 225  EPL_tii2014.Subnet1_Host[12].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 241  EPL_tii2014.Subnet1_Host[13].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 257  EPL_tii2014.Subnet1_Host[14].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 273  EPL_tii2014.Subnet1_Host[15].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 289  EPL_tii2014.Subnet1_Host[16].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 305  EPL_tii2014.Subnet1_Host[17].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 321  EPL_tii2014.Subnet1_Host[18].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 337  EPL_tii2014.Subnet1_Host[19].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 353  EPL_tii2014.Subnet2_Host[0].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 369  EPL_tii2014.Subnet2_Host[1].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 385  EPL_tii2014.Subnet2_Host[2].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 401  EPL_tii2014.Subnet2_Host[3].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 417  EPL_tii2014.Subnet2_Host[4].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 433  EPL_tii2014.Subnet2_Host[5].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 449  EPL_tii2014.Subnet2_Host[6].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 465  EPL_tii2014.Subnet2_Host[7].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 481  EPL_tii2014.Subnet2_Host[8].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 497  EPL_tii2014.Subnet2_Host[9].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 522  EPL_tii2014.DC_CN2.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 523  EPL_tii2014.DC_CN2.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 519  EPL_tii2014.DC_CN2.llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 530  EPL_tii2014.DC_CN2.lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 4  EPL_tii2014.PLC.MN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 19  EPL_tii2014.Subnet1_Host[0].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 20  EPL_tii2014.Subnet1_Host[0].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 21  EPL_tii2014.Subnet1_Host[0].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 29  EPL_tii2014.Subnet1_Host[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 24  EPL_tii2014.Subnet1_Host[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 9  EPL_tii2014.PLC.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 10  EPL_tii2014.PLC.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 6  EPL_tii2014.PLC.llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 3  EPL_tii2014.PLC.MN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 35  EPL_tii2014.Subnet1_Host[1].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 36  EPL_tii2014.Subnet1_Host[1].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 37  EPL_tii2014.Subnet1_Host[1].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 45  EPL_tii2014.Subnet1_Host[1].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 40  EPL_tii2014.Subnet1_Host[1].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 51  EPL_tii2014.Subnet1_Host[2].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 52  EPL_tii2014.Subnet1_Host[2].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 53  EPL_tii2014.Subnet1_Host[2].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 61  EPL_tii2014.Subnet1_Host[2].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 56  EPL_tii2014.Subnet1_Host[2].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 67  EPL_tii2014.Subnet1_Host[3].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 68  EPL_tii2014.Subnet1_Host[3].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 69  EPL_tii2014.Subnet1_Host[3].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 77  EPL_tii2014.Subnet1_Host[3].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 72  EPL_tii2014.Subnet1_Host[3].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 83  EPL_tii2014.Subnet1_Host[4].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 84  EPL_tii2014.Subnet1_Host[4].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 85  EPL_tii2014.Subnet1_Host[4].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 93  EPL_tii2014.Subnet1_Host[4].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 88  EPL_tii2014.Subnet1_Host[4].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 99  EPL_tii2014.Subnet1_Host[5].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 100  EPL_tii2014.Subnet1_Host[5].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 101  EPL_tii2014.Subnet1_Host[5].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 109  EPL_tii2014.Subnet1_Host[5].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 104  EPL_tii2014.Subnet1_Host[5].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 115  EPL_tii2014.Subnet1_Host[6].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 116  EPL_tii2014.Subnet1_Host[6].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 117  EPL_tii2014.Subnet1_Host[6].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 125  EPL_tii2014.Subnet1_Host[6].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 120  EPL_tii2014.Subnet1_Host[6].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 131  EPL_tii2014.Subnet1_Host[7].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 132  EPL_tii2014.Subnet1_Host[7].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 133  EPL_tii2014.Subnet1_Host[7].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 141  EPL_tii2014.Subnet1_Host[7].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 136  EPL_tii2014.Subnet1_Host[7].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 147  EPL_tii2014.Subnet1_Host[8].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 148  EPL_tii2014.Subnet1_Host[8].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 149  EPL_tii2014.Subnet1_Host[8].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 157  EPL_tii2014.Subnet1_Host[8].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 152  EPL_tii2014.Subnet1_Host[8].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 163  EPL_tii2014.Subnet1_Host[9].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 164  EPL_tii2014.Subnet1_Host[9].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 165  EPL_tii2014.Subnet1_Host[9].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 173  EPL_tii2014.Subnet1_Host[9].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 168  EPL_tii2014.Subnet1_Host[9].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 179  EPL_tii2014.Subnet1_Host[10].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 180  EPL_tii2014.Subnet1_Host[10].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 181  EPL_tii2014.Subnet1_Host[10].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 189  EPL_tii2014.Subnet1_Host[10].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 184  EPL_tii2014.Subnet1_Host[10].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 195  EPL_tii2014.Subnet1_Host[11].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 196  EPL_tii2014.Subnet1_Host[11].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 197  EPL_tii2014.Subnet1_Host[11].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 205  EPL_tii2014.Subnet1_Host[11].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 200  EPL_tii2014.Subnet1_Host[11].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 211  EPL_tii2014.Subnet1_Host[12].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 212  EPL_tii2014.Subnet1_Host[12].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 213  EPL_tii2014.Subnet1_Host[12].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 221  EPL_tii2014.Subnet1_Host[12].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 216  EPL_tii2014.Subnet1_Host[12].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 227  EPL_tii2014.Subnet1_Host[13].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 228  EPL_tii2014.Subnet1_Host[13].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 229  EPL_tii2014.Subnet1_Host[13].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 237  EPL_tii2014.Subnet1_Host[13].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 232  EPL_tii2014.Subnet1_Host[13].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 243  EPL_tii2014.Subnet1_Host[14].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 244  EPL_tii2014.Subnet1_Host[14].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 245  EPL_tii2014.Subnet1_Host[14].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 253  EPL_tii2014.Subnet1_Host[14].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 248  EPL_tii2014.Subnet1_Host[14].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 259  EPL_tii2014.Subnet1_Host[15].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 260  EPL_tii2014.Subnet1_Host[15].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 261  EPL_tii2014.Subnet1_Host[15].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 269  EPL_tii2014.Subnet1_Host[15].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 264  EPL_tii2014.Subnet1_Host[15].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 275  EPL_tii2014.Subnet1_Host[16].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 276  EPL_tii2014.Subnet1_Host[16].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 277  EPL_tii2014.Subnet1_Host[16].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 285  EPL_tii2014.Subnet1_Host[16].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 280  EPL_tii2014.Subnet1_Host[16].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 291  EPL_tii2014.Subnet1_Host[17].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 292  EPL_tii2014.Subnet1_Host[17].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 293  EPL_tii2014.Subnet1_Host[17].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 301  EPL_tii2014.Subnet1_Host[17].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 296  EPL_tii2014.Subnet1_Host[17].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 307  EPL_tii2014.Subnet1_Host[18].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 308  EPL_tii2014.Subnet1_Host[18].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 309  EPL_tii2014.Subnet1_Host[18].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 317  EPL_tii2014.Subnet1_Host[18].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 312  EPL_tii2014.Subnet1_Host[18].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 323  EPL_tii2014.Subnet1_Host[19].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 324  EPL_tii2014.Subnet1_Host[19].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 325  EPL_tii2014.Subnet1_Host[19].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 333  EPL_tii2014.Subnet1_Host[19].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 328  EPL_tii2014.Subnet1_Host[19].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 339  EPL_tii2014.Subnet2_Host[0].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 340  EPL_tii2014.Subnet2_Host[0].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 341  EPL_tii2014.Subnet2_Host[0].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 349  EPL_tii2014.Subnet2_Host[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 344  EPL_tii2014.Subnet2_Host[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 355  EPL_tii2014.Subnet2_Host[1].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 356  EPL_tii2014.Subnet2_Host[1].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 357  EPL_tii2014.Subnet2_Host[1].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 365  EPL_tii2014.Subnet2_Host[1].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 360  EPL_tii2014.Subnet2_Host[1].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 371  EPL_tii2014.Subnet2_Host[2].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 372  EPL_tii2014.Subnet2_Host[2].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 373  EPL_tii2014.Subnet2_Host[2].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 381  EPL_tii2014.Subnet2_Host[2].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 376  EPL_tii2014.Subnet2_Host[2].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 387  EPL_tii2014.Subnet2_Host[3].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 388  EPL_tii2014.Subnet2_Host[3].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 389  EPL_tii2014.Subnet2_Host[3].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 397  EPL_tii2014.Subnet2_Host[3].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 392  EPL_tii2014.Subnet2_Host[3].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 403  EPL_tii2014.Subnet2_Host[4].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 404  EPL_tii2014.Subnet2_Host[4].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 405  EPL_tii2014.Subnet2_Host[4].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 413  EPL_tii2014.Subnet2_Host[4].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 408  EPL_tii2014.Subnet2_Host[4].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 419  EPL_tii2014.Subnet2_Host[5].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 420  EPL_tii2014.Subnet2_Host[5].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 421  EPL_tii2014.Subnet2_Host[5].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 429  EPL_tii2014.Subnet2_Host[5].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 424  EPL_tii2014.Subnet2_Host[5].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 435  EPL_tii2014.Subnet2_Host[6].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 436  EPL_tii2014.Subnet2_Host[6].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 437  EPL_tii2014.Subnet2_Host[6].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 445  EPL_tii2014.Subnet2_Host[6].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 440  EPL_tii2014.Subnet2_Host[6].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 451  EPL_tii2014.Subnet2_Host[7].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 452  EPL_tii2014.Subnet2_Host[7].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 453  EPL_tii2014.Subnet2_Host[7].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 461  EPL_tii2014.Subnet2_Host[7].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 456  EPL_tii2014.Subnet2_Host[7].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 467  EPL_tii2014.Subnet2_Host[8].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 468  EPL_tii2014.Subnet2_Host[8].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 469  EPL_tii2014.Subnet2_Host[8].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 477  EPL_tii2014.Subnet2_Host[8].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 472  EPL_tii2014.Subnet2_Host[8].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 483  EPL_tii2014.Subnet2_Host[9].CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 484  EPL_tii2014.Subnet2_Host[9].CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 485  EPL_tii2014.Subnet2_Host[9].llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 493  EPL_tii2014.Subnet2_Host[9].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 488  EPL_tii2014.Subnet2_Host[9].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 499  EPL_tii2014.DC_CN1.CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 500  EPL_tii2014.DC_CN1.CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 501  EPL_tii2014.DC_CN1.llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 509  EPL_tii2014.DC_CN1.mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 504  EPL_tii2014.DC_CN1.mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 516  EPL_tii2014.DC_CN2.CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 517  EPL_tii2014.DC_CN2.CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 518  EPL_tii2014.DC_CN2.llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 526  EPL_tii2014.DC_CN2.mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 521  EPL_tii2014.DC_CN2.mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 514  EPL_tii2014.DC_CN1.lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 531  EPL_tii2014.DC_CN2.lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 34  EPL_tii2014.Subnet1_Host[0].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 50  EPL_tii2014.Subnet1_Host[1].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 66  EPL_tii2014.Subnet1_Host[2].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 82  EPL_tii2014.Subnet1_Host[3].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 98  EPL_tii2014.Subnet1_Host[4].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 114  EPL_tii2014.Subnet1_Host[5].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 130  EPL_tii2014.Subnet1_Host[6].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 146  EPL_tii2014.Subnet1_Host[7].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 162  EPL_tii2014.Subnet1_Host[8].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 178  EPL_tii2014.Subnet1_Host[9].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 194  EPL_tii2014.Subnet1_Host[10].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 210  EPL_tii2014.Subnet1_Host[11].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 226  EPL_tii2014.Subnet1_Host[12].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 242  EPL_tii2014.Subnet1_Host[13].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 258  EPL_tii2014.Subnet1_Host[14].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 274  EPL_tii2014.Subnet1_Host[15].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 290  EPL_tii2014.Subnet1_Host[16].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 306  EPL_tii2014.Subnet1_Host[17].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 322  EPL_tii2014.Subnet1_Host[18].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 338  EPL_tii2014.Subnet1_Host[19].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 354  EPL_tii2014.Subnet2_Host[0].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 370  EPL_tii2014.Subnet2_Host[1].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 386  EPL_tii2014.Subnet2_Host[2].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 402  EPL_tii2014.Subnet2_Host[3].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 418  EPL_tii2014.Subnet2_Host[4].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 434  EPL_tii2014.Subnet2_Host[5].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 450  EPL_tii2014.Subnet2_Host[6].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 466  EPL_tii2014.Subnet2_Host[7].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 482  EPL_tii2014.Subnet2_Host[8].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 498  EPL_tii2014.Subnet2_Host[9].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 18  EPL_tii2014.PLC.lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+0	62313 76447 12 248957 0.00004736 0.49439648386 2898 71 72 208614 15017226
+1	138760 84144 16 248945 0.000095679999 0.494375003861 3179 71 72 228846 16473930
+2	222904 61314 17 248912 0.000095679999 0.494368283862 2321 71 72 167070 12026058
+3	284218 36470 529 248953 0.00030121999 0.49439072386 1386 45 45 62370 2806650
+4	320688 37228 278 248953 0.000201109997 0.49439072386 1470 0 1 1428 1428
+5	357916 38089 10 248955 0.0000416 0.49439072386 1512 0 1 1470 1470
+6	396005 36470 527 248951 0.00030121999 0.49439072386 1386 45 45 62370 2806650
+8	432475 39643 13 248958 0.00004736 0.49439648386 1512 64 64 96768 6193152
+9	472118 36469 524 248950 0.00030121999 0.49439072386 1386 64 64 88704 5677056
+10	508587 37855 524 248950 0.00030121999 0.49439072386 1386 64 64 88704 5677056
+13	546442 41113 11 248956 0.0000416 0.49439072386 1512 64 64 96768 6193152
+17	587555 1214 8 243099 0 0.492 42 0 0.00937164414 0.383468617742 0.0035865413896039
+18	588769 1575 5933 249024 0.00264772386 0.49464772386 42 0.00264772386 10.443179106118 150.48220490958 965.35616639512
+19	590344 1114 437 243528 0.000265019992 0.492265019992 42 1 1 42 42
+20	591458 2273 438 248701 0.000273019992 0.494362523862 84 0 45 1890 85050
+21	593731 2273 440 248792 0.000273019992 0.494362523862 84 0 45 1890 85050
+22	596004 40333 59 248641 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+24	636337 2315 443 248855 0.000278779992 0.494368283862 84 64 64 5376 344064
+25	638652 40501 29 248611 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+26	679153 40501 29 248611 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+29	719654 2315 441 248823 0.000273019992 0.494362523862 84 64 64 5376 344064
+33	721969 1660 119 243210 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+34	723629 1656 5873 248964 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+35	725285 1141 595 243686 0.000331419988 0.492331419988 43 1 1 43 43
+36	726426 2301 596 248702 0.000339419988 0.494362523862 85 0 45 1935 87075
+37	728727 2301 598 248793 0.000339419988 0.494362523862 85 0 45 1935 87075
+38	731028 40333 60 248642 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+40	771361 2343 601 248857 0.000345179988 0.494368283862 85 64 64 5440 348160
+41	773704 40501 30 248612 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+42	814205 40501 30 248612 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+45	854706 2343 599 248824 0.000339419988 0.494362523862 85 64 64 5440 348160
+49	857049 1660 121 243212 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+50	858709 1656 5874 248965 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+51	860365 1193 753 243844 0.000397819984 0.492397819984 45 1 1 45 45
+52	861558 2355 754 248703 0.000405819984 0.494362523862 87 0 45 2025 91125
+53	863913 2355 756 248794 0.000405819984 0.494362523862 87 0 45 2025 91125
+54	866268 40333 61 248643 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+56	906601 2397 759 248859 0.000411579984 0.494368283862 87 64 64 5568 356352
+57	908998 40501 31 248613 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+58	949499 40501 31 248613 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+61	990000 2397 757 248825 0.000405819984 0.494362523862 87 64 64 5568 356352
+65	992397 1660 123 243214 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+66	994057 1656 5875 248966 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+67	995713 1125 911 244002 0.00046421998 0.49246421998 44 1 1 44 44
+68	996838 2286 912 248704 0.00047221998 0.494362523862 86 0 45 1980 89100
+69	999124 2286 914 248795 0.00047221998 0.494362523862 86 0 45 1980 89100
+70	1001410 40291 62 248644 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+72	1041701 2328 917 248861 0.00047797998 0.494368283862 86 64 64 5504 352256
+73	1044029 40459 32 248614 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+74	1084488 40459 32 248614 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+77	1124947 2328 915 248826 0.00047221998 0.494362523862 86 64 64 5504 352256
+81	1127275 1660 125 243216 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+82	1128935 1656 5876 248967 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+83	1130591 1115 1069 244160 0.000530619976 0.492530619976 42 1 1 42 42
+84	1131706 2274 1070 248705 0.000538619976 0.494362523862 84 0 45 1890 85050
+85	1133980 2274 1072 248796 0.000538619976 0.494362523862 84 0 45 1890 85050
+86	1136254 40333 63 248645 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+88	1176587 2316 1075 248863 0.000544379976 0.494368283862 84 64 64 5376 344064
+89	1178903 40501 33 248615 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+90	1219404 40501 33 248615 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+93	1259905 2316 1073 248827 0.000538619976 0.494362523862 84 64 64 5376 344064
+97	1262221 1660 127 243218 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+98	1263881 1656 5877 248968 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+99	1265537 1169 1227 244318 0.000597019972 0.492597019972 44 1 1 44 44
+100	1266706 2416 1228 248706 0.000605019972 0.494362523862 86 0 45 1980 89100
+101	1269122 2416 1230 248797 0.000605019972 0.494362523862 86 0 45 1980 89100
+102	1271538 41803 64 248646 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+104	1313341 2458 1233 248865 0.000610779972 0.494368283862 86 64 64 5504 352256
+105	1315799 41971 34 248616 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+106	1357770 41971 34 248616 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+109	1399741 2458 1231 248828 0.000605019972 0.494362523862 86 64 64 5504 352256
+113	1402199 1702 129 243220 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+114	1403901 1698 5878 248969 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+115	1405599 1157 1385 244476 0.000663419968 0.492663419968 42 1 1 42 42
+116	1406756 2358 1386 248707 0.000671419968 0.494362523862 84 0 45 1890 85050
+117	1409114 2358 1388 248798 0.000671419968 0.494362523862 84 0 45 1890 85050
+118	1411472 41803 65 248647 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+120	1453275 2400 1391 248867 0.000677179968 0.494368283862 84 64 64 5376 344064
+121	1455675 41971 35 248617 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+122	1497646 41971 35 248617 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+125	1539617 2400 1389 248829 0.000671419968 0.494362523862 84 64 64 5376 344064
+129	1542017 1702 131 243222 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+130	1543719 1698 5879 248970 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+131	1545417 1238 1543 244634 0.000729819964 0.492729819964 45 1 1 45 45
+132	1546655 2442 1544 248708 0.000737819964 0.494362523862 87 0 45 2025 91125
+133	1549097 2442 1546 248799 0.000737819964 0.494362523862 87 0 45 2025 91125
+134	1551539 41803 66 248648 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+136	1593342 2484 1549 248869 0.000743579964 0.494368283862 87 64 64 5568 356352
+137	1595826 41971 36 248618 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+138	1637797 41971 36 248618 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+141	1679768 2484 1547 248830 0.000737819964 0.494362523862 87 64 64 5568 356352
+145	1682252 1702 133 243224 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+146	1683954 1698 5880 248971 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+147	1685652 1198 1701 244792 0.00079621996 0.49279621996 45 1 1 45 45
+148	1686850 2402 1702 248709 0.00080421996 0.494362523862 87 0 45 2025 91125
+149	1689252 2402 1704 248800 0.00080421996 0.494362523862 87 0 45 2025 91125
+150	1691654 41761 67 248649 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+152	1733415 2444 1707 248871 0.00080997996 0.494368283862 87 64 64 5568 356352
+153	1735859 41929 37 248619 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+154	1777788 41929 37 248619 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+157	1819717 2444 1705 248831 0.00080421996 0.494362523862 87 64 64 5568 356352
+161	1822161 1702 135 243226 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+162	1823863 1698 5881 248972 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+163	1825561 1157 1859 244950 0.000862619956 0.492862619956 42 1 1 42 42
+164	1826718 2358 1860 248710 0.000870619956 0.494362523862 84 0 45 1890 85050
+165	1829076 2358 1862 248801 0.000870619956 0.494362523862 84 0 45 1890 85050
+166	1831434 41803 68 248650 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+168	1873237 2400 1865 248873 0.000876379956 0.494368283862 84 64 64 5376 344064
+169	1875637 41971 38 248620 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+170	1917608 41971 38 248620 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+173	1959579 2400 1863 248832 0.000870619956 0.494362523862 84 64 64 5376 344064
+177	1961979 1702 137 243228 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+178	1963681 1698 5882 248973 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+179	1965379 1184 2017 245108 0.000929019952 0.492929019952 43 1 1 43 43
+180	1966563 2386 2018 248711 0.000937019952 0.494362523862 85 0 45 1935 87075
+181	1968949 2386 2020 248802 0.000937019952 0.494362523862 85 0 45 1935 87075
+182	1971335 41803 69 248651 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+184	2013138 2428 2023 248875 0.000942779952 0.494368283862 85 64 64 5440 348160
+185	2015566 41971 39 248621 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+186	2057537 41971 39 248621 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+189	2099508 2428 2021 248833 0.000937019952 0.494362523862 85 64 64 5440 348160
+193	2101936 1702 139 243230 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+194	2103638 1698 5883 248974 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+195	2105336 1185 2175 245266 0.000995419948 0.492995419948 43 1 1 43 43
+196	2106521 2387 2176 248712 0.001003419948 0.494362523862 85 0 45 1935 87075
+197	2108908 2387 2178 248803 0.001003419948 0.494362523862 85 0 45 1935 87075
+198	2111295 41803 70 248652 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+200	2153098 2429 2181 248877 0.001009179948 0.494368283862 85 64 64 5440 348160
+201	2155527 41971 40 248622 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+202	2197498 41971 40 248622 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+205	2239469 2429 2179 248834 0.001003419948 0.494362523862 85 64 64 5440 348160
+209	2241898 1702 141 243232 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+210	2243600 1698 5884 248975 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+211	2245298 1184 2333 245424 0.001061819944 0.493061819944 43 1 1 43 43
+212	2246482 2386 2334 248713 0.001069819944 0.494362523862 85 0 45 1935 87075
+213	2248868 2386 2336 248804 0.001069819944 0.494362523862 85 0 45 1935 87075
+214	2251254 41803 71 248653 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+216	2293057 2428 2339 248879 0.001075579944 0.494368283862 85 64 64 5440 348160
+217	2295485 41971 41 248623 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+218	2337456 41971 41 248623 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+221	2379427 2428 2337 248835 0.001069819944 0.494362523862 85 64 64 5440 348160
+225	2381855 1702 143 243234 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+226	2383557 1698 5885 248976 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+227	2385255 1198 2491 245582 0.00112821994 0.49312821994 45 1 1 45 45
+228	2386453 2402 2492 248714 0.00113621994 0.494362523862 87 0 45 2025 91125
+229	2388855 2402 2494 248805 0.00113621994 0.494362523862 87 0 45 2025 91125
+230	2391257 41761 72 248654 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+232	2433018 2444 2497 248881 0.00114197994 0.494368283862 87 64 64 5568 356352
+233	2435462 41929 42 248624 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+234	2477391 41929 42 248624 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+237	2519320 2444 2495 248836 0.00113621994 0.494362523862 87 64 64 5568 356352
+241	2521764 1702 145 243236 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+242	2523466 1698 5886 248977 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+243	2525164 1157 2649 245740 0.001194619936 0.493194619936 42 1 1 42 42
+244	2526321 2358 2650 248715 0.001202619936 0.494362523862 84 0 45 1890 85050
+245	2528679 2358 2652 248806 0.001202619936 0.494362523862 84 0 45 1890 85050
+246	2531037 41803 73 248655 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+248	2572840 2400 2655 248883 0.001208379936 0.494368283862 84 64 64 5376 344064
+249	2575240 41971 43 248625 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+250	2617211 41971 43 248625 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+253	2659182 2400 2653 248837 0.001202619936 0.494362523862 84 64 64 5376 344064
+257	2661582 1702 147 243238 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+258	2663284 1698 5887 248978 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+259	2664982 1185 2807 245898 0.001261019932 0.493261019932 43 1 1 43 43
+260	2666167 2387 2808 248716 0.001269019932 0.494362523862 85 0 45 1935 87075
+261	2668554 2387 2810 248807 0.001269019932 0.494362523862 85 0 45 1935 87075
+262	2670941 41803 74 248656 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+264	2712744 2429 2813 248885 0.001274779932 0.494368283862 85 64 64 5440 348160
+265	2715173 41971 44 248626 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+266	2757144 41971 44 248626 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+269	2799115 2429 2811 248838 0.001269019932 0.494362523862 85 64 64 5440 348160
+273	2801544 1702 149 243240 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+274	2803246 1698 5888 248979 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+275	2804944 1185 2965 248717 0.001327419928 0.494362523862 43 1 1 43 43
+276	2806129 2387 2966 248717 0.001335419928 0.494362523862 85 0 45 1935 87075
+277	2808516 2387 2968 248809 0.001335419928 0.494362523862 85 0 45 1935 87075
+278	2810903 41803 75 248657 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+280	2852706 2429 2971 248946 0.001341179928 0.494375003861 85 64 64 5440 348160
+281	2855135 41971 45 248627 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+282	2897106 41971 45 248627 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+285	2939077 2429 2969 248840 0.001335419928 0.494362523862 85 64 64 5440 348160
+289	2941506 1702 151 243242 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+290	2943208 1698 5889 248980 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+291	2944906 1240 3123 246214 0.001393819924 0.493393819924 45 1 1 45 45
+292	2946146 2444 3124 248718 0.001401819924 0.494362523862 87 0 45 2025 91125
+293	2948590 2444 3126 248810 0.001401819924 0.494362523862 87 0 45 2025 91125
+294	2951034 41803 76 248658 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+296	2992837 2486 3129 248889 0.001407579924 0.494368283862 87 64 64 5568 356352
+297	2995323 41971 46 248628 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+298	3037294 41971 46 248628 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+301	3079265 2486 3127 248841 0.001401819924 0.494362523862 87 64 64 5568 356352
+305	3081751 1702 153 243244 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+306	3083453 1698 5890 248981 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+307	3085151 1143 3281 246372 0.00146021992 0.49346021992 43 1 1 43 43
+308	3086294 2345 3282 248719 0.00146821992 0.494362523862 85 0 45 1935 87075
+309	3088639 2345 3284 248811 0.00146821992 0.494362523862 85 0 45 1935 87075
+310	3090984 41761 77 248659 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+312	3132745 2387 3287 248891 0.00147397992 0.494368283862 85 64 64 5440 348160
+313	3135132 41929 47 248629 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+314	3177061 41929 47 248629 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+317	3218990 2387 3285 248842 0.00146821992 0.494362523862 85 64 64 5440 348160
+321	3221377 1702 155 243246 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+322	3223079 1698 5891 248982 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+323	3224777 1240 3439 246530 0.001526619916 0.493526619916 45 1 1 45 45
+324	3226017 2444 3440 248720 0.001534619916 0.494362523862 87 0 45 2025 91125
+325	3228461 2444 3442 248812 0.001534619916 0.494362523862 87 0 45 2025 91125
+326	3230905 41803 78 248660 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+328	3272708 2486 3445 248893 0.001540379916 0.494368283862 87 64 64 5568 356352
+329	3275194 41971 48 248630 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+330	3317165 41971 48 248630 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+333	3359136 2486 3443 248843 0.001534619916 0.494362523862 87 64 64 5568 356352
+337	3361622 1702 157 243248 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+338	3363324 1698 5892 248983 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+339	3365022 1185 3597 246688 0.001593019912 0.493593019912 43 1 1 43 43
+340	3366207 2387 3598 248721 0.001601019912 0.494362523862 85 0 45 1935 87075
+341	3368594 2387 3600 248813 0.001601019912 0.494362523862 85 0 45 1935 87075
+342	3370981 41804 79 248661 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+344	3412785 2429 3603 248895 0.001606779912 0.494368283862 85 64 64 5440 348160
+345	3415214 41972 49 248631 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+346	3457186 41972 49 248631 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+349	3499158 2429 3601 248844 0.001601019912 0.494362523862 85 64 64 5440 348160
+353	3501587 1702 159 243250 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+354	3503289 1698 5893 248984 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+355	3504987 1212 3755 246846 0.001659419908 0.493659419908 44 1 1 44 44
+356	3506199 2415 3756 248722 0.001667419908 0.494362523862 86 0 45 1980 89100
+357	3508614 2415 3758 248814 0.001667419908 0.494362523862 86 0 45 1980 89100
+358	3511029 41804 80 248662 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+360	3552833 2457 3761 248897 0.001673179908 0.494368283862 86 64 64 5504 352256
+361	3555290 41972 50 248632 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+362	3597262 41972 50 248632 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+365	3639234 2457 3759 248845 0.001667419908 0.494362523862 86 64 64 5504 352256
+369	3641691 1702 161 243252 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+370	3643393 1698 5894 248985 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+371	3645091 1185 3913 247004 0.001725819904 0.493725819904 43 1 1 43 43
+372	3646276 2387 3914 248723 0.001733819904 0.494362523862 85 0 45 1935 87075
+373	3648663 2387 3916 248815 0.001733819904 0.494362523862 85 0 45 1935 87075
+374	3651050 41804 81 248663 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+376	3692854 2429 3919 248899 0.001739579904 0.494368283862 85 64 64 5440 348160
+377	3695283 41972 51 248633 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+378	3737255 41972 51 248633 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+381	3779227 2429 3917 248846 0.001733819904 0.494362523862 85 64 64 5440 348160
+385	3781656 1702 163 243254 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+386	3783358 1698 5895 248986 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+387	3785056 1102 4071 247162 0.0017922199 0.4937922199 43 1 1 43 43
+388	3786158 2304 4072 248724 0.0018002199 0.494362523862 85 0 45 1935 87075
+389	3788462 2304 4074 248816 0.0018002199 0.494362523862 85 0 45 1935 87075
+390	3790766 41719 82 248664 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+392	3832485 2346 4077 248901 0.0018059799 0.494368283862 85 64 64 5440 348160
+393	3834831 41887 52 248634 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+394	3876718 41887 52 248634 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+397	3918605 2346 4075 248847 0.0018002199 0.494362523862 85 64 64 5440 348160
+401	3920951 1702 165 243256 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+402	3922653 1698 5896 248987 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+403	3924351 1268 4229 247320 0.001858619896 0.493858619896 46 1 1 46 46
+404	3925619 2473 4230 248725 0.001866619896 0.494362523862 88 0 45 2070 93150
+405	3928092 2473 4232 248817 0.001866619896 0.494362523862 88 0 45 2070 93150
+406	3930565 41804 83 248665 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+408	3972369 2515 4235 248903 0.001872379896 0.494368283862 88 64 64 5632 360448
+409	3974884 41972 53 248635 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+410	4016856 41972 53 248635 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+413	4058828 2515 4233 248848 0.001866619896 0.494362523862 88 64 64 5632 360448
+417	4061343 1702 167 243258 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+418	4063045 1698 5897 248988 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+419	4064743 1213 4387 247478 0.001925019892 0.493925019892 44 1 1 44 44
+420	4065956 2416 4388 248726 0.001933019892 0.494362523862 86 0 45 1980 89100
+421	4068372 2416 4390 248818 0.001933019892 0.494362523862 86 0 45 1980 89100
+422	4070788 41804 84 248666 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+424	4112592 2458 4393 248905 0.001938779892 0.494368283862 86 64 64 5504 352256
+425	4115050 41972 54 248636 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+426	4157022 41972 54 248636 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+429	4198994 2458 4391 248849 0.001933019892 0.494362523862 86 64 64 5504 352256
+433	4201452 1702 169 243260 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+434	4203154 1698 5898 248989 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+435	4204852 1158 4545 247636 0.001991419888 0.493991419888 42 1 1 42 42
+436	4206010 2359 4546 248727 0.001999419888 0.494362523862 84 0 45 1890 85050
+437	4208369 2359 4548 248819 0.001999419888 0.494362523862 84 0 45 1890 85050
+438	4210728 41804 85 248667 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+440	4252532 2401 4551 248907 0.002005179888 0.494368283862 84 64 64 5376 344064
+441	4254933 41972 55 248637 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+442	4296905 41972 55 248637 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+445	4338877 2401 4549 248850 0.001999419888 0.494362523862 84 64 64 5376 344064
+449	4341278 1702 171 243262 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+450	4342980 1698 5899 248990 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+451	4344678 1158 4703 247794 0.002057819884 0.494057819884 42 1 1 42 42
+452	4345836 2359 4704 248728 0.002065819884 0.494362523862 84 0 45 1890 85050
+453	4348195 2359 4706 248820 0.002065819884 0.494362523862 84 0 45 1890 85050
+454	4350554 41804 86 248668 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+456	4392358 2401 4709 248909 0.002071579884 0.494368283862 84 64 64 5376 344064
+457	4394759 41972 56 248638 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+458	4436731 41972 56 248638 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+461	4478703 2401 4707 248851 0.002065819884 0.494362523862 84 64 64 5376 344064
+465	4481104 1702 173 243264 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+466	4482806 1698 5900 248991 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+467	4484504 1116 4861 247952 0.00212421988 0.49412421988 42 1 1 42 42
+468	4485620 2317 4862 248729 0.00213221988 0.494362523862 84 0 45 1890 85050
+469	4487937 2317 4864 248821 0.00213221988 0.494362523862 84 0 45 1890 85050
+470	4490254 41762 87 248669 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+472	4532016 2359 4867 248911 0.00213797988 0.494368283862 84 64 64 5376 344064
+473	4534375 41930 57 248639 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+474	4576305 41930 57 248639 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+477	4618235 2359 4865 248852 0.00213221988 0.494362523862 84 64 64 5376 344064
+481	4620594 1702 175 243266 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+482	4622296 1698 5901 248992 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+483	4623994 1158 5019 248110 0.002190619876 0.494190619876 42 1 1 42 42
+484	4625152 2359 5020 248730 0.002198619876 0.494362523862 84 0 45 1890 85050
+485	4627511 2359 5022 248822 0.002198619876 0.494362523862 84 0 45 1890 85050
+486	4629870 41804 88 248670 0.000143999998 0.494362523862 1470 1 45 58758 2636718
+488	4671674 2401 5025 248913 0.002204379876 0.494368283862 84 64 64 5376 344064
+489	4674075 41972 58 248640 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+490	4716047 41972 58 248640 0.000143999998 0.494362523862 1470 64 64 94080 6021120
+493	4758019 2401 5023 248853 0.002198619876 0.494362523862 84 64 64 5376 344064
+497	4760420 1702 177 243268 0.000143999998 0.492143999998 42 0.000143999998 0.009524476136 0.390647521574 0.003719362208274
+498	4762122 1698 5902 248993 0.002619523862 0.494619523862 42 0.002619523862 10.442020002204 150.45743004739 965.09113162353
+499	4763820 1186 5177 248268 0.002247335872 0.494247335872 43 1 1 43 43
+500	4765006 2388 5178 248590 0.002255335872 0.494352839862 85 0 45 1935 87075
+501	4767394 2388 5180 248593 0.002255335872 0.494352839862 85 0 45 1935 87075
+502	4769782 41804 23 248588 0.000137855999 0.494352839862 1470 1 45 58758 2636718
+504	4811586 2430 5183 248596 0.002255911872 0.494353415862 85 64 64 5440 348160
+505	4814016 41972 22 248587 0.000137855999 0.494352839862 1470 64 64 94080 6021120
+506	4855988 41972 22 248587 0.000137855999 0.494352839862 1470 64 64 94080 6021120
+509	4897960 2430 5181 248594 0.002255335872 0.494352839862 85 64 64 5440 348160
+513	4900390 1701 25 243116 0.000137855999 0.492137855999 42 0.000137855999 0.009528016137 0.390786517616 0.0037221257560607
+514	4902091 1698 5869 248960 0.002609839862 0.494609839862 42 0.002609839862 10.441613274204 150.44868539539 964.99805210211
+515	4903789 45379 18 248595 0.000095679999 0.494353415862 1598 71 72 115014 8278026
+516	4949168 1187 5337 248428 0.002301087867 0.494301087867 43 1 1 43 43
+517	4950355 2389 5338 248603 0.002309087867 0.494359559861 85 0 45 1935 87075
+518	4952744 2389 5340 248606 0.002309087867 0.494359559861 85 0 45 1935 87075
+519	4955133 41469 213 248601 0.000185215999 0.494359559861 1470 1 45 58758 2636718
+521	4996602 2431 5343 248609 0.002309663867 0.494360135861 85 64 64 5440 348160
+522	4999033 41637 212 248600 0.000185215999 0.494359559861 1470 64 64 94080 6021120
+523	5040670 41637 212 248600 0.000185215999 0.494359559861 1470 64 64 94080 6021120
+526	5082307 2431 5341 248607 0.002309087867 0.494359559861 85 64 64 5440 348160
+530	5084738 1702 215 243306 0.000185215999 0.492185215999 42 0.000185215999 0.009568656138 0.392500117657 0.003753960696745
+531	5086440 1702 5871 248962 0.002616559861 0.494616559861 42 0.002616559861 10.441895514162 150.45475355448 965.06264208103
+532	5088142 44403 28 248608 0.000143039999 0.494360135861 1555 71 72 111918 8055114
+533	5132545 4805 1 249025 0 0.49465348386 176 0 1404 211309 268232627
+534	5137350 4807 1 249025 0 0.49465348386 176 0 1404 228716 304661084
+535	5142157 54469 2 249023 0 0.494632003861 1806 0 7371 7859209 40363163091
+536	5196626 54497 2 249023 0 0.494632003861 1806 0 7371 10915067 67619102841
+537	5251123 28438 3 249013 0 0.494625283862 946 0 3861 2220629 6100296351
+538	5279561 28537 3 249013 0 0.494625283862 946 0 3861 3022027 9893122791
+539	5308098 5008 4 248961 0 0.494610415862 172 0 702 93263 55313499
+540	5313106 5010 4 248961 0 0.494610415862 172 0 702 108304 69639798
+541	5318116 4903 5 248963 0 0.494617135861 170 0 351 34414 10634824
+542	5323019 4988 5 248963 0 0.494617135861 170 0 351 48779 14728849
+543	5328007 449357 0 249025 0 0.49465348386 14424 0 25272 260287938 5183135734692
+544	5777364 276772 0 249025 0 0.49465348386 8880 0 25272 190919976 4181331108888
+545	6054136 8411 0 249024 0 0.49464772386 338 0 351 68770 21266284
+546	6062547 4482 0 249024 0 0.49464772386 170 0 351 48779 14728849
+547	6067029 9785 0 248964 0 0.494619523862 338 0 351 68770 21266284
+548	6076814 4988 0 248964 0 0.494619523862 170 0 351 48779 14728849
+549	6081802 9785 0 248965 0 0.494619523862 338 0 351 68770 21266284
+550	6091587 4988 0 248965 0 0.494619523862 170 0 351 48779 14728849
+551	6096575 9785 0 248966 0 0.494619523862 338 0 351 68770 21266284
+552	6106360 4988 0 248966 0 0.494619523862 170 0 351 48779 14728849
+553	6111348 9785 0 248967 0 0.494619523862 338 0 351 68770 21266284
+554	6121133 4988 0 248967 0 0.494619523862 170 0 351 48779 14728849
+555	6126121 9785 0 248968 0 0.494619523862 338 0 351 68770 21266284
+556	6135906 4988 0 248968 0 0.494619523862 170 0 351 48779 14728849
+557	6140894 9785 0 248969 0 0.494619523862 338 0 351 68770 21266284
+558	6150679 4988 0 248969 0 0.494619523862 170 0 351 48779 14728849
+559	6155667 9785 0 248970 0 0.494619523862 338 0 351 68770 21266284
+560	6165452 4988 0 248970 0 0.494619523862 170 0 351 48779 14728849
+561	6170440 9785 0 248971 0 0.494619523862 338 0 351 68770 21266284
+562	6180225 4988 0 248971 0 0.494619523862 170 0 351 48779 14728849
+563	6185213 9785 0 248972 0 0.494619523862 338 0 351 68770 21266284
+564	6194998 4988 0 248972 0 0.494619523862 170 0 351 48779 14728849
+565	6199986 9785 0 248973 0 0.494619523862 338 0 351 68770 21266284
+566	6209771 4988 0 248973 0 0.494619523862 170 0 351 48779 14728849
+567	6214759 9785 0 248974 0 0.494619523862 338 0 351 68770 21266284
+568	6224544 4988 0 248974 0 0.494619523862 170 0 351 48779 14728849
+569	6229532 9785 0 248975 0 0.494619523862 338 0 351 68770 21266284
+570	6239317 4988 0 248975 0 0.494619523862 170 0 351 48779 14728849
+571	6244305 9785 0 248976 0 0.494619523862 338 0 351 68770 21266284
+572	6254090 4988 0 248976 0 0.494619523862 170 0 351 48779 14728849
+573	6259078 9785 0 248977 0 0.494619523862 338 0 351 68770 21266284
+574	6268863 4988 0 248977 0 0.494619523862 170 0 351 48779 14728849
+575	6273851 9785 0 248978 0 0.494619523862 338 0 351 68770 21266284
+576	6283636 4988 0 248978 0 0.494619523862 170 0 351 48779 14728849
+577	6288624 9785 0 248979 0 0.494619523862 338 0 351 68770 21266284
+578	6298409 4988 0 248979 0 0.494619523862 170 0 351 48779 14728849
+579	6303397 9785 0 248980 0 0.494619523862 338 0 351 68770 21266284
+580	6313182 4988 0 248980 0 0.494619523862 170 0 351 48779 14728849
+581	6318170 9785 0 248981 0 0.494619523862 338 0 351 68770 21266284
+582	6327955 4988 0 248981 0 0.494619523862 170 0 351 48779 14728849
+583	6332943 9785 0 248982 0 0.494619523862 338 0 351 68770 21266284
+584	6342728 4988 0 248982 0 0.494619523862 170 0 351 48779 14728849
+585	6347716 9785 0 248983 0 0.494619523862 338 0 351 68770 21266284
+586	6357501 4988 0 248983 0 0.494619523862 170 0 351 48779 14728849
+587	6362489 9785 0 248984 0 0.494619523862 338 0 351 68770 21266284
+588	6372274 4988 0 248984 0 0.494619523862 170 0 351 48779 14728849
+589	6377262 9785 0 248985 0 0.494619523862 338 0 351 68770 21266284
+590	6387047 4988 0 248985 0 0.494619523862 170 0 351 48779 14728849
+591	6392035 9785 0 248986 0 0.494619523862 338 0 351 68770 21266284
+592	6401820 4988 0 248986 0 0.494619523862 170 0 351 48779 14728849
+593	6406808 9785 0 248987 0 0.494619523862 338 0 351 68770 21266284
+594	6416593 4988 0 248987 0 0.494619523862 170 0 351 48779 14728849
+595	6421581 9785 0 248988 0 0.494619523862 338 0 351 68770 21266284
+596	6431366 4988 0 248988 0 0.494619523862 170 0 351 48779 14728849
+597	6436354 9785 0 248989 0 0.494619523862 338 0 351 68770 21266284
+598	6446139 4988 0 248989 0 0.494619523862 170 0 351 48779 14728849
+599	6451127 9785 0 248990 0 0.494619523862 338 0 351 68770 21266284
+600	6460912 4988 0 248990 0 0.494619523862 170 0 351 48779 14728849
+601	6465900 9785 0 248991 0 0.494619523862 338 0 351 68770 21266284
+602	6475685 4988 0 248991 0 0.494619523862 170 0 351 48779 14728849
+603	6480673 9785 0 248992 0 0.494619523862 338 0 351 68770 21266284
+604	6490458 4988 0 248992 0 0.494619523862 170 0 351 48779 14728849
+605	6495446 9785 0 248993 0 0.494619523862 338 0 351 68770 21266284
+606	6505231 4988 0 248993 0 0.494619523862 170 0 351 48779 14728849
+607	6510219 9783 0 248960 0 0.494609839862 338 0 351 68770 21266284
+608	6520002 4988 0 248960 0 0.494609839862 170 0 351 48779 14728849
+609	6524990 9785 0 248962 0 0.494616559861 338 0 351 68770 21266284
+610	6534775 4988 0 248962 0 0.494616559861 170 0 351 48779 14728849

@@ -1,0 +1,274 @@
+file 62715 1393850782                                           
+version 2
+run General-0-20140303-13:46:19-15218
+attr configname General
+attr datetime 20140303-13:46:19
+attr experiment General
+attr inifile eee_intel_test.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network eeepowerlink.networks.EEE_intel_test
+attr processid 15218
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 84  EEE_intel_test.PLC.lpi_client  "EEE-Link Power"  ETV
+vector 85  EEE_intel_test.PLC.lpi_client  "NoEEE-Link Power"  ETV
+vector 86  EEE_intel_test.Host1.lpi_client  "EEE-Link Power"  ETV
+vector 87  EEE_intel_test.Host1.lpi_client  "NoEEE-Link Power"  ETV
+vector 89  EEE_intel_test.switch.eth[0].lpi_client  "EEE-Link Power"  ETV
+vector 90  EEE_intel_test.switch.eth[0].lpi_client  "NoEEE-Link Power"  ETV
+vector 91  EEE_intel_test.switch.eth[1].lpi_client  "EEE-Link Power"  ETV
+vector 92  EEE_intel_test.switch.eth[1].lpi_client  "NoEEE-Link Power"  ETV
+vector 93  EEE_intel_test.switch.eth[2].lpi_client  "EEE-Link Power"  ETV
+vector 94  EEE_intel_test.switch.eth[2].lpi_client  "NoEEE-Link Power"  ETV
+vector 95  EEE_intel_test.Host2.lpi_client  "EEE-Link Power"  ETV
+vector 96  EEE_intel_test.Host2.lpi_client  "NoEEE-Link Power"  ETV
+vector 97  EEE_intel_test.PLC.MN  "EEE-Link Power"  ETV
+vector 98  EEE_intel_test.PLC.MN  "NoEEE-Link Power"  ETV
+vector 13  EEE_intel_test.PLC.lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 29  EEE_intel_test.Host1.lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 45  EEE_intel_test.switch.eth[0].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 56  EEE_intel_test.switch.eth[1].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 67  EEE_intel_test.switch.eth[2].lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 81  EEE_intel_test.Host2.lpi_client  linkPLPI_time:vector  ETV
+attr source  partial_lpi_time
+vector 15  EEE_intel_test.PLC.MN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 0  EEE_intel_test.PLC.llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 8  EEE_intel_test.PLC.mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 12  EEE_intel_test.PLC.lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 3  EEE_intel_test.PLC.mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 36  EEE_intel_test.switch.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 37  EEE_intel_test.switch.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 88  EEE_intel_test.switch.relayUnit  "buffer level"  ETV
+vector 51  EEE_intel_test.switch.eth[1].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 62  EEE_intel_test.switch.eth[2].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 55  EEE_intel_test.switch.eth[1].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 66  EEE_intel_test.switch.eth[2].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 46  EEE_intel_test.switch.eth[1].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 57  EEE_intel_test.switch.eth[2].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 20  EEE_intel_test.Host1.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 21  EEE_intel_test.Host1.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 72  EEE_intel_test.Host2.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 73  EEE_intel_test.Host2.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 17  EEE_intel_test.Host1.llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 69  EEE_intel_test.Host2.llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 79  EEE_intel_test.Host2.mac  droppedPkNotForUs:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, vector(packetBytes)"
+vector 30  EEE_intel_test.Host1.CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 31  EEE_intel_test.Host1.CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 16  EEE_intel_test.Host1.llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 24  EEE_intel_test.Host1.mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 28  EEE_intel_test.Host1.lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 19  EEE_intel_test.Host1.mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 47  EEE_intel_test.switch.eth[1].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 48  EEE_intel_test.switch.eth[1].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 40  EEE_intel_test.switch.eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 44  EEE_intel_test.switch.eth[0].lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 35  EEE_intel_test.switch.eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 4  EEE_intel_test.PLC.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 5  EEE_intel_test.PLC.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 1  EEE_intel_test.PLC.llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 14  EEE_intel_test.PLC.MN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 27  EEE_intel_test.Host1.mac  droppedPkNotForUs:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, vector(packetBytes)"
+vector 82  EEE_intel_test.Host2.CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 83  EEE_intel_test.Host2.CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 68  EEE_intel_test.Host2.llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 76  EEE_intel_test.Host2.mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 80  EEE_intel_test.Host2.lpi_client  linkLPI_time:vector  ETV
+attr source  lpi_time
+vector 71  EEE_intel_test.Host2.mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 58  EEE_intel_test.switch.eth[2].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 59  EEE_intel_test.switch.eth[2].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+84	9545 2415 0 786 0 0.016558739996 98 0 351 24085 7146322.5
+85	11960 910 0 786 0 0.016558739996 38 0 351 8523 2255013
+86	12870 2521 0 787 0 0.016587099996 98 0 351 25257 7453972.5
+87	15391 918 0 787 0 0.016587099996 38 0 351 8523 2255013
+89	16309 2513 0 786 0 0.016558739996 98 0 351 25257 7453972.5
+90	18822 910 0 786 0 0.016558739996 38 0 351 8523 2255013
+91	19732 2463 0 787 0 0.016587099996 98 0 351 24085 7146322.5
+92	22195 918 0 787 0 0.016587099996 38 0 351 8523 2255013
+93	23113 2495 0 788 0 0.016587099996 98 0 351 21741 5844230.5
+94	25608 918 0 788 0 0.016587099996 38 0 351 8523 2255013
+95	26526 2553 0 788 0 0.016587099996 98 0 351 22913 6151880.5
+96	29079 918 0 788 0 0.016587099996 38 0 351 8523 2255013
+0	29997 330 38 751 0.001 0.016311519998 16 1 1 16 16
+1	30327 184 125 746 0.001194079998 0.016311519998 8 1 1 8 8
+3	30511 366 44 759 0.00102626 0.016337779998 16 64 64 1024 65536
+4	30877 192 123 744 0.001194079998 0.016311519998 8 64 64 512 32768
+5	31069 192 123 744 0.001194079998 0.016311519998 8 64 64 512 32768
+8	31261 346 39 752 0.001 0.016311519998 16 64 64 1024 65536
+12	31607 111 41 605 0.001 0.016 4 0.000779000001 0.004441260004 0.014102780013 5.9781212270948e-05
+13	31718 184 31 786 0.000220999999 0.016558739996 5 0.000220999999 0.002455959983 0.006692399955 1.2079547262838e-05
+14	31902 192 127 748 0.001194079998 0.016311519998 8 1 1 8 8
+15	32094 361 37 789 0.001 0.021 17 1 1 17 17
+16	32455 96 100 664 0.001139359998 0.016139359998 4 1 1 4 4
+17	32551 366 64 775 0.00105472 0.016366239998 16 1 1 16 16
+19	32917 100 106 670 0.001165619998 0.016165619998 4 64 64 256 16384
+20	33017 382 62 773 0.00105472 0.016366239998 16 64 64 1024 65536
+21	33399 382 62 773 0.00105472 0.016366239998 16 64 64 1024 65536
+24	33781 100 101 665 0.001139359998 0.016139359998 4 64 64 256 16384
+27	33881 100 151 715 0.001248799998 0.016248799998 4 72 72 288 20736
+28	33981 148 103 667 0.001139359998 0.016139359998 4 0.000918359999 0.004752780002 0.015176700005 6.8610138329997e-05
+29	34129 184 32 783 0.000220999999 0.016386579996 5 0.000220999999 0.001209879991 0.003577199975 3.1704492063392e-06
+30	34313 95 94 658 0.001131359998 0.016131359998 4 1 1 4 4
+31	34408 95 99 663 0.001139359998 0.016139359998 4 1 1 4 4
+35	34503 200 121 742 0.001193979998 0.016311419998 8 64 64 512 32768
+36	34703 382 45 760 0.00102636 0.016337879998 16 64 64 1024 65536
+37	35085 382 45 760 0.00102636 0.016337879998 16 64 64 1024 65536
+40	35467 200 112 736 0.001167719998 0.016285159998 8 64 64 512 32768
+44	35667 148 116 680 0.001167719998 0.016167719998 4 0.000946719999 0.004635340002 0.014852740005 6.5355409558931e-05
+45	35815 184 33 785 0.000220999999 0.016532379996 5 0.000220999999 0.001679639991 0.004751599975 5.8453096058976e-06
+46	35999 482 60 771 0.00105462 0.016366139998 20 64 64 1280 81920
+47	36481 100 107 671 0.001165719998 0.016165719998 4 64 64 256 16384
+48	36581 100 107 671 0.001165719998 0.016165719998 4 64 64 256 16384
+51	36681 482 50 765 0.00102836 0.016339879998 20 64 64 1280 81920
+55	37163 131 54 618 0.00102836 0.01602836 4 0.000807360001 0.004441260004 0.014131140013 5.9826201440605e-05
+56	37294 184 34 787 0.000220999999 0.016587099996 5 0.000220999999 0.002455959983 0.006692399955 1.2079547262838e-05
+57	37478 482 61 772 0.00105462 0.016366139998 20 64 64 1280 81920
+58	37960 100 167 731 0.001283159998 0.016283159998 4 64 64 256 16384
+59	38060 100 167 731 0.001283159998 0.016283159998 4 64 64 256 16384
+62	38160 482 51 766 0.00102836 0.016339879998 20 64 64 1280 81920
+66	38642 131 55 619 0.00102836 0.01602836 4 0.000807360001 0.004441260004 0.014131140013 5.9826201440605e-05
+67	38773 184 35 788 0.000220999999 0.016587099996 5 0.000220999999 0.002455959983 0.006692399955 1.2079547262838e-05
+68	38957 96 160 724 0.001256799998 0.016256799998 4 1 1 4 4
+69	39053 367 65 776 0.00105472 0.016366239998 16 1 1 16 16
+71	39420 100 166 730 0.001283059998 0.016283059998 4 64 64 256 16384
+72	39520 383 63 774 0.00105472 0.016366239998 16 64 64 1024 65536
+73	39903 383 63 774 0.00105472 0.016366239998 16 64 64 1024 65536
+76	40286 100 161 725 0.001256799998 0.016256799998 4 64 64 256 16384
+79	40386 99 92 656 0.001131359998 0.016131359998 4 72 72 288 20736
+80	40485 148 163 727 0.001256799998 0.016256799998 4 0.001035799999 0.004752780002 0.015294140005 6.8839634880162e-05
+81	40633 184 36 784 0.000220999999 0.016504019996 5 0.000220999999 0.001209879991 0.003577199975 3.1704492063392e-06
+82	40817 96 154 718 0.001248799998 0.016248799998 4 1 1 4 4
+83	40913 96 159 723 0.001256799998 0.016256799998 4 1 1 4 4
+88	41009 1140 46 764 0.00102636 0.016339879998 48 0 64 1536 98304
+97	42149 14942 25 788 0.000001 0.016587099996 576 -1758 0 -368008 400485585
+98	57091 5624 31 788 0.000220999999 0.016587099996 216 -1488 0 -160704 159971904

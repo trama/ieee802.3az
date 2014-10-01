@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/eeePowerlink/simulations/results/epletfa-eee1_100M-*.vec"/>
+    <inputs name="/eeePowerlink/simulations/results/epletfa-eee1_100M-*.sca"/>
+    <inputs name="/eeePowerlink/simulations/results/epletfa-eee2_100M-0.sca"/>
+    <inputs name="/eeePowerlink/simulations/results/epletfa-eee2_100M-0.vec"/>
+  </inputs>
+  <datasets>
+    <datasets name="lpi_power">
+      <items xsi:type="scave:Add" filterPattern="module(EPL_etfa.PLC.MN) AND name(&quot;*EEE-Link Power&quot;) " type="VECTOR"/>
+      <items xsi:type="scave:Group">
+        <items xsi:type="scave:LineChart" name="cfr_100M" lineNameFormat="">
+          <properties name="Graph.Title" value="Instantaneous Power Consumption (100 Mbps)"/>
+          <properties name="Graph.Title.Font" value="Arial-regular-12"/>
+          <properties name="X.Axis.Title" value="Time [s]"/>
+          <properties name="Y.Axis.Title" value="Power [mW]"/>
+          <properties name="Label.Font" value="Arial-regular-10"/>
+          <properties name="Y.Axis.Min" value="5000.0"/>
+          <properties name="Y.Axis.Max" value="70000.0"/>
+          <properties name="Legend.Display" value="true"/>
+          <properties name="Legend.Font" value="Arial-regular-10"/>
+          <properties name="Legend.Position" value="Inside"/>
+          <properties name="Legend.Anchoring" value="NorthEast"/>
+          <properties name="X.Axis.Min" value="0.0"/>
+          <properties name="X.Axis.Max" value="0.005"/>
+          <properties name="Line.Name/eee1_100M-0-20130404-00:45:31-776 eee1_100M" value="EEE-1"/>
+          <properties name="Line.Name/eee2_100M-0-20130404-00:04:54-31626 eee2_100M" value="EEE-2"/>
+          <properties name="Line.Name//eeePowerlink/simulations/results/epletfa-eee2_100M-0.vec eee2_100M-0-20130404-00:04:54-31626 eee2_100M" value="EEE-2"/>
+          <properties name="Line.Name//eeePowerlink/simulations/results/epletfa-eee1_100M-0.vec eee1_100M-0-20130404-00:45:31-776 eee1_100M" value="EEE-1"/>
+          <properties name="Line.Color//eeePowerlink/simulations/results/epletfa-eee1_100M-0.vec eee1_100M-0-20130404-00:45:31-776 eee1_100M" value="black"/>
+          <properties name="Symbols.Type//eeePowerlink/simulations/results/epletfa-eee2_100M-0.vec eee2_100M-0-20130404-00:04:54-31626 eee2_100M" value="Square"/>
+          <properties name="Line.Color//eeePowerlink/simulations/results/epletfa-eee2_100M-0.vec eee2_100M-0-20130404-00:04:54-31626 eee2_100M" value="grey50"/>
+          <properties name="Symbols.Type//eeePowerlink/simulations/results/epletfa-eee1_100M-0.vec eee1_100M-0-20130404-00:45:31-776 eee1_100M" value="Dot"/>
+          <properties name="Symbols.Size" value="2"/>
+        </items>
+      </items>
+      <items xsi:type="scave:Group">
+        <items xsi:type="scave:Apply" operation="timeavg"/>
+        <items xsi:type="scave:LineChart" name="cfr_av_power_100M" lineNameFormat="">
+          <properties name="Graph.Title" value="Average Power Consumption (100 Mbps)"/>
+          <properties name="Graph.Title.Font" value="Arial-regular-12"/>
+          <properties name="X.Axis.Title" value="Time [s]"/>
+          <properties name="Y.Axis.Title" value="Average Power [mW]"/>
+          <properties name="Label.Font" value="Arial-regular-10"/>
+          <properties name="Legend.Display" value="true"/>
+          <properties name="Legend.Font" value="Arial-regular-10"/>
+          <properties name="Legend.Position" value="Inside"/>
+          <properties name="Legend.Anchoring" value="NorthEast"/>
+          <properties name="X.Axis.Min" value="0.0"/>
+          <properties name="X.Axis.Max" value="0.15"/>
+          <properties name="Line.Color/eee1_100M-0-20130404-00:45:31-776 eee1_100M" value="black"/>
+          <properties name="Line.Name/eee1_100M-0-20130404-00:45:31-776 eee1_100M" value="EEE-1"/>
+          <properties name="Line.Color/eee2_100M-0-20130404-00:04:54-31626 eee2_100M" value="grey75"/>
+          <properties name="Line.Name/eee2_100M-0-20130404-00:04:54-31626 eee2_100M" value="EEE-2"/>
+          <properties name="Symbols.Size" value="6"/>
+        </items>
+      </items>
+    </datasets>
+    <datasets name="time">
+      <items xsi:type="scave:Add" filterPattern="run(eee1_100M-0-20130406-14:35:20-6036) AND module(*.lpi_client) AND name(linkLPI_time:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Apply" operation="aggregator">
+        <params name="function" value="average"/>
+      </items>
+      <items xsi:type="scave:Group">
+        <items xsi:type="scave:Apply" operation="timeavg"/>
+        <items xsi:type="scave:LineChart"/>
+      </items>
+    </datasets>
+  </datasets>
+  <chartSheets>
+    <chartSheets name="default" charts="//@datasets/@datasets.0/@items.2/@items.1 //@datasets/@datasets.0/@items.1/@items.0 //@datasets/@datasets.1/@items.2/@items.1"/>
+  </chartSheets>
+</scave:Analysis>

@@ -1,0 +1,9 @@
+# Partial Tkenv config file -- see $HOME/.tkenvrc as well
+inspector "EPL_tii2014" "EPL_tii2014" "2" "627x283+5+27:normal"
+inspector "EPL_tase" "EPL_tase" "2" "607x335+-9+27:normal"
+inspector "EEE_intel_test" "EEE_intel_test" "2" "627x596+5+27:normal"
+inspector "EEE_SwitchedDuplexLAN" "EEE_SwitchedDuplexLAN" "2" "636x284+5+27:normal"
+inspector "EPL_test" "EPL_test" "2" "607x334+-9+16:normal"
+inspector "PowerLinkBigNet" "PowerLinkBigNet" "2" "607x334+80+376:normal"
+inspector "EPL_etfa" "EPL_etfa" "2" "627x284+47+73:normal"
+

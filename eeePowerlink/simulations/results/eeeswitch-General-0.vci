@@ -1,0 +1,26 @@
+                                                                
+version 2
+run General-0-20140227-06:10:01-35678
+attr configname General
+attr datetime 20140227-06:10:01
+attr experiment General
+attr inifile eee_intel_test.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network eeepowerlink.networks.EEE_intel_test
+attr processid 35678
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 57  EEE_intel_test.MN.lpi_client  "EEE-Link Power"  ETV
+vector 58  EEE_intel_test.MN.lpi_client  "NoEEE-Link Power"  ETV
+vector 59  EEE_intel_test.CN.lpi_client  "EEE-Link Power"  ETV
+vector 60  EEE_intel_test.CN.lpi_client  "NoEEE-Link Power"  ETV
+vector 62  EEE_intel_test.switch.eth[0].lpi_client  "EEE-Link Power"  ETV
+vector 63  EEE_intel_test.switch.eth[0].lpi_client  "NoEEE-Link Power"  ETV
+vector 64  EEE_intel_test.switch.eth[1].lpi_client  "EEE-Link Power"  ETV
+vector 65  EEE_intel_test.switch.eth[1].lpi_client  "NoEEE-Link Power"  ETV

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/eeePowerlink/simulations/results/epletfa-eee1_1G-*.vec"/>
+    <inputs name="/eeePowerlink/simulations/results/epletfa-eee1_1G-*.sca"/>
+    <inputs name="/eeePowerlink/simulations/results/epletfa-eee1_10G-0.sca"/>
+    <inputs name="/eeePowerlink/simulations/results/epletfa-eee1_10G-0.vec"/>
+    <inputs name="/eeePowerlink/simulations/results/epletfa-eee1_100M-0.sca"/>
+    <inputs name="/eeePowerlink/simulations/results/epletfa-eee1_100M-0.vec"/>
+  </inputs>
+  <datasets>
+    <datasets name="lpi_power">
+      <items xsi:type="scave:Add" filterPattern="module(EPL_etfa.PLC.MN) AND name(&quot;EEE-Link Power&quot;)" type="VECTOR"/>
+      <items xsi:type="scave:Group">
+        <items xsi:type="scave:Apply" operation="timeavg">
+          <params name="interpolation-mode" value="sample-hold"/>
+        </items>
+        <items xsi:type="scave:LineChart" name="av_power_eee1" lineNameFormat="">
+          <properties name="Graph.Title" value="Average Power Consumption (EEE-1)"/>
+          <properties name="Graph.Title.Font" value="Arial-regular-12"/>
+          <properties name="X.Axis.Title" value="Time [s]"/>
+          <properties name="Y.Axis.Title" value="Average power [mW]"/>
+          <properties name="Label.Font" value="Arial-regular-10"/>
+          <properties name="Y.Axis.Min" value="0.0"/>
+          <properties name="Legend.Display" value="true"/>
+          <properties name="Legend.Font" value="Arial-regular-10"/>
+          <properties name="Legend.Position" value="Inside"/>
+          <properties name="Legend.Anchoring" value="NorthEast"/>
+          <properties name="X.Axis.Min" value="0.0"/>
+          <properties name="X.Axis.Max" value="0.15"/>
+          <properties name="Line.Type" value="SampleHold"/>
+          <properties name="Line.Color" value="auto"/>
+          <properties name="Line.Type/eee1_100M-0-20130404-00:45:31-776 eee1_100M" value="Linear"/>
+          <properties name="Line.Color/eee1_100M-0-20130404-00:45:31-776 eee1_100M" value="black"/>
+          <properties name="Line.Color/eee1_1G-0-20130404-00:36:37-606 eee1_1G" value="grey50"/>
+          <properties name="Line.Type/eee1_10G-0-20130404-00:43:12-734 eee1_10G" value="Linear"/>
+          <properties name="Line.Color/eee1_10G-0-20130404-00:43:12-734 eee1_10G" value="grey75"/>
+          <properties name="Line.Name/eee1_100M-0-20130404-00:45:31-776 eee1_100M" value="100 Mbps"/>
+          <properties name="Line.Name/eee1_10G-0-20130404-00:43:12-734 eee1_10G" value="10 Gbps"/>
+          <properties name="Line.Type/eee1_1G-0-20130404-00:36:37-606 eee1_1G" value="SampleHold"/>
+          <properties name="Line.Name/eee1_1G-0-20130404-00:36:37-606 eee1_1G" value="1 Gbps"/>
+          <properties name="Symbols.Size" value="6"/>
+        </items>
+      </items>
+    </datasets>
+  </datasets>
+  <chartSheets>
+    <chartSheets name="default" charts="//@datasets/@datasets.0/@items.1/@items.1"/>
+  </chartSheets>
+</scave:Analysis>

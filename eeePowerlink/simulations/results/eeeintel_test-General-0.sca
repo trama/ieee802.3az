@@ -1,0 +1,667 @@
+version 2
+run General-0-20140303-13:46:19-15218
+attr configname General
+attr datetime 20140303-13:46:19
+attr experiment General
+attr inifile eee_intel_test.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network eeepowerlink.networks.EEE_intel_test
+attr processid 15218
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar EEE_intel_test.PLC.llc 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar EEE_intel_test.PLC.llc 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar EEE_intel_test.PLC.llc 	decapPk:count 	8
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar EEE_intel_test.PLC.llc 	decapPk:sum(packetBytes) 	8
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar EEE_intel_test.PLC.llc 	encapPk:count 	16
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar EEE_intel_test.PLC.llc 	encapPk:sum(packetBytes) 	16
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar EEE_intel_test.PLC.mac 	"simulated time" 	0.021
+scalar EEE_intel_test.PLC.mac 	full-duplex 	1
+scalar EEE_intel_test.PLC.mac 	"frames/sec sent" 	761.90476190476
+scalar EEE_intel_test.PLC.mac 	"frames/sec rcvd" 	380.95238095238
+scalar EEE_intel_test.PLC.mac 	"bits/sec sent" 	390095.23809524
+scalar EEE_intel_test.PLC.mac 	"bits/sec rcvd" 	195047.61904762
+scalar EEE_intel_test.PLC.mac 	"rx channel idle (%)" 	99.780571428571
+scalar EEE_intel_test.PLC.mac 	"rx channel utilization (%)" 	0.21942857142857
+scalar EEE_intel_test.PLC.mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar EEE_intel_test.PLC.mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar EEE_intel_test.PLC.mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar EEE_intel_test.PLC.mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar EEE_intel_test.PLC.mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar EEE_intel_test.PLC.mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar EEE_intel_test.PLC.mac 	rxPkFromHL:count 	16
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar EEE_intel_test.PLC.mac 	rxPkFromHL:sum(packetBytes) 	1024
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar EEE_intel_test.PLC.mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar EEE_intel_test.PLC.mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar EEE_intel_test.PLC.mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar EEE_intel_test.PLC.mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar EEE_intel_test.PLC.mac 	passedUpPk:count 	8
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar EEE_intel_test.PLC.mac 	passedUpPk:sum(packetBytes) 	512
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar EEE_intel_test.PLC.mac 	rxPkOk:count 	8
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar EEE_intel_test.PLC.mac 	rxPkOk:sum(packetBytes) 	512
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar EEE_intel_test.PLC.mac 	txPk:count 	16
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar EEE_intel_test.PLC.mac 	txPk:sum(packetBytes) 	1024
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar EEE_intel_test.PLC.lpi_client 	linkPLPI_time:min 	0.000220999999
+attr source  partial_lpi_time
+scalar EEE_intel_test.PLC.lpi_client 	linkPLPI_time:max 	0.002455959983
+attr source  partial_lpi_time
+scalar EEE_intel_test.PLC.lpi_client 	linkPLPI_time:timeavg 	0.0015053851121525
+attr source  partial_lpi_time
+scalar EEE_intel_test.PLC.lpi_client 	linkLPI_time:min 	0.000779000001
+attr source  lpi_time
+scalar EEE_intel_test.PLC.lpi_client 	linkLPI_time:max 	0.004441260004
+attr source  lpi_time
+scalar EEE_intel_test.PLC.lpi_client 	linkLPI_time:timeavg 	0.00352569500325
+attr source  lpi_time
+scalar EEE_intel_test.PLC.MN 	sentPk:count 	17
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar EEE_intel_test.PLC.MN 	sentPk:sum(packetBytes) 	17
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar EEE_intel_test.PLC.MN 	rcvdPk:count 	8
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar EEE_intel_test.PLC.MN 	rcvdPk:sum(packetBytes) 	8
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+scalar EEE_intel_test.Host1.llc 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar EEE_intel_test.Host1.llc 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar EEE_intel_test.Host1.llc 	decapPk:count 	16
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar EEE_intel_test.Host1.llc 	decapPk:sum(packetBytes) 	16
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar EEE_intel_test.Host1.llc 	encapPk:count 	4
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar EEE_intel_test.Host1.llc 	encapPk:sum(packetBytes) 	4
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar EEE_intel_test.Host1.mac 	"simulated time" 	0.021
+scalar EEE_intel_test.Host1.mac 	full-duplex 	1
+scalar EEE_intel_test.Host1.mac 	"frames/sec sent" 	190.47619047619
+scalar EEE_intel_test.Host1.mac 	"frames/sec rcvd" 	761.90476190476
+scalar EEE_intel_test.Host1.mac 	"bits/sec sent" 	97523.80952381
+scalar EEE_intel_test.Host1.mac 	"bits/sec rcvd" 	390095.23809524
+scalar EEE_intel_test.Host1.mac 	"rx channel idle (%)" 	99.451428571429
+scalar EEE_intel_test.Host1.mac 	"rx channel utilization (%)" 	0.54857142857143
+scalar EEE_intel_test.Host1.mac 	droppedPkNotForUs:count 	4
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar EEE_intel_test.Host1.mac 	droppedPkNotForUs:sum(packetBytes) 	288
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar EEE_intel_test.Host1.mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar EEE_intel_test.Host1.mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar EEE_intel_test.Host1.mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar EEE_intel_test.Host1.mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar EEE_intel_test.Host1.mac 	rxPkFromHL:count 	4
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar EEE_intel_test.Host1.mac 	rxPkFromHL:sum(packetBytes) 	256
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar EEE_intel_test.Host1.mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar EEE_intel_test.Host1.mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar EEE_intel_test.Host1.mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar EEE_intel_test.Host1.mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar EEE_intel_test.Host1.mac 	passedUpPk:count 	16
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar EEE_intel_test.Host1.mac 	passedUpPk:sum(packetBytes) 	1024
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar EEE_intel_test.Host1.mac 	rxPkOk:count 	16
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar EEE_intel_test.Host1.mac 	rxPkOk:sum(packetBytes) 	1024
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar EEE_intel_test.Host1.mac 	txPk:count 	4
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar EEE_intel_test.Host1.mac 	txPk:sum(packetBytes) 	256
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar EEE_intel_test.Host1.lpi_client 	linkPLPI_time:min 	0.000220999999
+attr source  partial_lpi_time
+scalar EEE_intel_test.Host1.lpi_client 	linkPLPI_time:max 	0.001209879991
+attr source  partial_lpi_time
+scalar EEE_intel_test.Host1.lpi_client 	linkPLPI_time:timeavg 	0.00079748196040679
+attr source  partial_lpi_time
+scalar EEE_intel_test.Host1.lpi_client 	linkLPI_time:min 	0.000918359999
+attr source  lpi_time
+scalar EEE_intel_test.Host1.lpi_client 	linkLPI_time:max 	0.004752780002
+attr source  lpi_time
+scalar EEE_intel_test.Host1.lpi_client 	linkLPI_time:timeavg 	0.0037874485719419
+attr source  lpi_time
+scalar EEE_intel_test.Host1.CN 	sentPk:count 	4
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar EEE_intel_test.Host1.CN 	sentPk:sum(packetBytes) 	4
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar EEE_intel_test.Host1.CN 	rcvdPk:count 	4
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar EEE_intel_test.Host1.CN 	rcvdPk:sum(packetBytes) 	4
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+scalar EEE_intel_test.switch.relayUnit 	"processed frames" 	24
+scalar EEE_intel_test.switch.relayUnit 	"dropped frames" 	0
+scalar EEE_intel_test.switch.relayUnit 	droppedBytes:count 	0
+attr title  "Dropped bytes, count"
+scalar EEE_intel_test.switch.relayUnit 	droppedBytes:sum 	0
+attr title  "Dropped bytes, sum"
+scalar EEE_intel_test.switch.relayUnit 	processedBytes:count 	0
+attr title  "Processed bytes, count"
+scalar EEE_intel_test.switch.relayUnit 	processedBytes:sum 	0
+attr title  "Processed bytes, sum"
+scalar EEE_intel_test.switch.relayUnit 	usedBufferBytes:max 	nan
+attr title  "Used buffer bytes, max"
+scalar EEE_intel_test.switch.relayUnit 	usedBufferBytes:timeavg 	nan
+attr title  "Used buffer bytes, timeavg"
+scalar EEE_intel_test.switch.eth[0].mac 	"simulated time" 	0.021
+scalar EEE_intel_test.switch.eth[0].mac 	full-duplex 	1
+scalar EEE_intel_test.switch.eth[0].mac 	"frames/sec sent" 	380.95238095238
+scalar EEE_intel_test.switch.eth[0].mac 	"frames/sec rcvd" 	761.90476190476
+scalar EEE_intel_test.switch.eth[0].mac 	"bits/sec sent" 	195047.61904762
+scalar EEE_intel_test.switch.eth[0].mac 	"bits/sec rcvd" 	390095.23809524
+scalar EEE_intel_test.switch.eth[0].mac 	"rx channel idle (%)" 	99.561142857143
+scalar EEE_intel_test.switch.eth[0].mac 	"rx channel utilization (%)" 	0.43885714285714
+scalar EEE_intel_test.switch.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar EEE_intel_test.switch.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar EEE_intel_test.switch.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar EEE_intel_test.switch.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar EEE_intel_test.switch.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar EEE_intel_test.switch.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar EEE_intel_test.switch.eth[0].mac 	rxPkFromHL:count 	8
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar EEE_intel_test.switch.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	512
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar EEE_intel_test.switch.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar EEE_intel_test.switch.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar EEE_intel_test.switch.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar EEE_intel_test.switch.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar EEE_intel_test.switch.eth[0].mac 	passedUpPk:count 	16
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar EEE_intel_test.switch.eth[0].mac 	passedUpPk:sum(packetBytes) 	1024
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar EEE_intel_test.switch.eth[0].mac 	rxPkOk:count 	16
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar EEE_intel_test.switch.eth[0].mac 	rxPkOk:sum(packetBytes) 	1024
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar EEE_intel_test.switch.eth[0].mac 	txPk:count 	8
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar EEE_intel_test.switch.eth[0].mac 	txPk:sum(packetBytes) 	512
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar EEE_intel_test.switch.eth[0].lpi_client 	linkPLPI_time:min 	0.000220999999
+attr source  partial_lpi_time
+scalar EEE_intel_test.switch.eth[0].lpi_client 	linkPLPI_time:max 	0.001679639991
+attr source  partial_lpi_time
+scalar EEE_intel_test.switch.eth[0].lpi_client 	linkPLPI_time:timeavg 	0.0010611005402221
+attr source  partial_lpi_time
+scalar EEE_intel_test.switch.eth[0].lpi_client 	linkLPI_time:min 	0.000946719999
+attr source  lpi_time
+scalar EEE_intel_test.switch.eth[0].lpi_client 	linkLPI_time:max 	0.004635340002
+attr source  lpi_time
+scalar EEE_intel_test.switch.eth[0].lpi_client 	linkLPI_time:timeavg 	0.0037053864105249
+attr source  lpi_time
+scalar EEE_intel_test.switch.eth[1].mac 	"simulated time" 	0.021
+scalar EEE_intel_test.switch.eth[1].mac 	full-duplex 	1
+scalar EEE_intel_test.switch.eth[1].mac 	"frames/sec sent" 	952.38095238095
+scalar EEE_intel_test.switch.eth[1].mac 	"frames/sec rcvd" 	190.47619047619
+scalar EEE_intel_test.switch.eth[1].mac 	"bits/sec sent" 	487619.04761905
+scalar EEE_intel_test.switch.eth[1].mac 	"bits/sec rcvd" 	97523.80952381
+scalar EEE_intel_test.switch.eth[1].mac 	"rx channel idle (%)" 	99.890285714286
+scalar EEE_intel_test.switch.eth[1].mac 	"rx channel utilization (%)" 	0.10971428571429
+scalar EEE_intel_test.switch.eth[1].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar EEE_intel_test.switch.eth[1].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar EEE_intel_test.switch.eth[1].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar EEE_intel_test.switch.eth[1].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar EEE_intel_test.switch.eth[1].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar EEE_intel_test.switch.eth[1].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar EEE_intel_test.switch.eth[1].mac 	rxPkFromHL:count 	20
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar EEE_intel_test.switch.eth[1].mac 	rxPkFromHL:sum(packetBytes) 	1280
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar EEE_intel_test.switch.eth[1].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar EEE_intel_test.switch.eth[1].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar EEE_intel_test.switch.eth[1].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar EEE_intel_test.switch.eth[1].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar EEE_intel_test.switch.eth[1].mac 	passedUpPk:count 	4
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar EEE_intel_test.switch.eth[1].mac 	passedUpPk:sum(packetBytes) 	256
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar EEE_intel_test.switch.eth[1].mac 	rxPkOk:count 	4
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar EEE_intel_test.switch.eth[1].mac 	rxPkOk:sum(packetBytes) 	256
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar EEE_intel_test.switch.eth[1].mac 	txPk:count 	20
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar EEE_intel_test.switch.eth[1].mac 	txPk:sum(packetBytes) 	1280
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar EEE_intel_test.switch.eth[1].lpi_client 	linkPLPI_time:min 	0.000220999999
+attr source  partial_lpi_time
+scalar EEE_intel_test.switch.eth[1].lpi_client 	linkPLPI_time:max 	0.002455959983
+attr source  partial_lpi_time
+scalar EEE_intel_test.switch.eth[1].lpi_client 	linkPLPI_time:timeavg 	0.0015023347504824
+attr source  partial_lpi_time
+scalar EEE_intel_test.switch.eth[1].lpi_client 	linkLPI_time:min 	0.000807360001
+attr source  lpi_time
+scalar EEE_intel_test.switch.eth[1].lpi_client 	linkLPI_time:max 	0.004441260004
+attr source  lpi_time
+scalar EEE_intel_test.switch.eth[1].lpi_client 	linkLPI_time:timeavg 	0.0035314949564125
+attr source  lpi_time
+scalar EEE_intel_test.switch.eth[2].mac 	"simulated time" 	0.021
+scalar EEE_intel_test.switch.eth[2].mac 	full-duplex 	1
+scalar EEE_intel_test.switch.eth[2].mac 	"frames/sec sent" 	952.38095238095
+scalar EEE_intel_test.switch.eth[2].mac 	"frames/sec rcvd" 	190.47619047619
+scalar EEE_intel_test.switch.eth[2].mac 	"bits/sec sent" 	487619.04761905
+scalar EEE_intel_test.switch.eth[2].mac 	"bits/sec rcvd" 	97523.80952381
+scalar EEE_intel_test.switch.eth[2].mac 	"rx channel idle (%)" 	99.890285714286
+scalar EEE_intel_test.switch.eth[2].mac 	"rx channel utilization (%)" 	0.10971428571429
+scalar EEE_intel_test.switch.eth[2].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar EEE_intel_test.switch.eth[2].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar EEE_intel_test.switch.eth[2].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar EEE_intel_test.switch.eth[2].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar EEE_intel_test.switch.eth[2].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar EEE_intel_test.switch.eth[2].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar EEE_intel_test.switch.eth[2].mac 	rxPkFromHL:count 	20
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar EEE_intel_test.switch.eth[2].mac 	rxPkFromHL:sum(packetBytes) 	1280
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar EEE_intel_test.switch.eth[2].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar EEE_intel_test.switch.eth[2].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar EEE_intel_test.switch.eth[2].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar EEE_intel_test.switch.eth[2].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar EEE_intel_test.switch.eth[2].mac 	passedUpPk:count 	4
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar EEE_intel_test.switch.eth[2].mac 	passedUpPk:sum(packetBytes) 	256
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar EEE_intel_test.switch.eth[2].mac 	rxPkOk:count 	4
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar EEE_intel_test.switch.eth[2].mac 	rxPkOk:sum(packetBytes) 	256
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar EEE_intel_test.switch.eth[2].mac 	txPk:count 	20
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar EEE_intel_test.switch.eth[2].mac 	txPk:sum(packetBytes) 	1280
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar EEE_intel_test.switch.eth[2].lpi_client 	linkPLPI_time:min 	0.000220999999
+attr source  partial_lpi_time
+scalar EEE_intel_test.switch.eth[2].lpi_client 	linkPLPI_time:max 	0.002455959983
+attr source  partial_lpi_time
+scalar EEE_intel_test.switch.eth[2].lpi_client 	linkPLPI_time:timeavg 	0.0015023347504824
+attr source  partial_lpi_time
+scalar EEE_intel_test.switch.eth[2].lpi_client 	linkLPI_time:min 	0.000807360001
+attr source  lpi_time
+scalar EEE_intel_test.switch.eth[2].lpi_client 	linkLPI_time:max 	0.004441260004
+attr source  lpi_time
+scalar EEE_intel_test.switch.eth[2].lpi_client 	linkLPI_time:timeavg 	0.0035314949564125
+attr source  lpi_time
+scalar EEE_intel_test.Host2.llc 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar EEE_intel_test.Host2.llc 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar EEE_intel_test.Host2.llc 	decapPk:count 	16
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar EEE_intel_test.Host2.llc 	decapPk:sum(packetBytes) 	16
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar EEE_intel_test.Host2.llc 	encapPk:count 	4
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar EEE_intel_test.Host2.llc 	encapPk:sum(packetBytes) 	4
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar EEE_intel_test.Host2.mac 	"simulated time" 	0.021
+scalar EEE_intel_test.Host2.mac 	full-duplex 	1
+scalar EEE_intel_test.Host2.mac 	"frames/sec sent" 	190.47619047619
+scalar EEE_intel_test.Host2.mac 	"frames/sec rcvd" 	761.90476190476
+scalar EEE_intel_test.Host2.mac 	"bits/sec sent" 	97523.80952381
+scalar EEE_intel_test.Host2.mac 	"bits/sec rcvd" 	390095.23809524
+scalar EEE_intel_test.Host2.mac 	"rx channel idle (%)" 	99.451428571429
+scalar EEE_intel_test.Host2.mac 	"rx channel utilization (%)" 	0.54857142857143
+scalar EEE_intel_test.Host2.mac 	droppedPkNotForUs:count 	4
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar EEE_intel_test.Host2.mac 	droppedPkNotForUs:sum(packetBytes) 	288
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar EEE_intel_test.Host2.mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar EEE_intel_test.Host2.mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar EEE_intel_test.Host2.mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar EEE_intel_test.Host2.mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar EEE_intel_test.Host2.mac 	rxPkFromHL:count 	4
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar EEE_intel_test.Host2.mac 	rxPkFromHL:sum(packetBytes) 	256
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar EEE_intel_test.Host2.mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar EEE_intel_test.Host2.mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar EEE_intel_test.Host2.mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar EEE_intel_test.Host2.mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar EEE_intel_test.Host2.mac 	passedUpPk:count 	16
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar EEE_intel_test.Host2.mac 	passedUpPk:sum(packetBytes) 	1024
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar EEE_intel_test.Host2.mac 	rxPkOk:count 	16
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar EEE_intel_test.Host2.mac 	rxPkOk:sum(packetBytes) 	1024
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar EEE_intel_test.Host2.mac 	txPk:count 	4
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar EEE_intel_test.Host2.mac 	txPk:sum(packetBytes) 	256
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar EEE_intel_test.Host2.lpi_client 	linkPLPI_time:min 	0.000220999999
+attr source  partial_lpi_time
+scalar EEE_intel_test.Host2.lpi_client 	linkPLPI_time:max 	0.001209879991
+attr source  partial_lpi_time
+scalar EEE_intel_test.Host2.lpi_client 	linkPLPI_time:timeavg 	0.00079189294908503
+attr source  partial_lpi_time
+scalar EEE_intel_test.Host2.lpi_client 	linkLPI_time:min 	0.001035799999
+attr source  lpi_time
+scalar EEE_intel_test.Host2.lpi_client 	linkLPI_time:max 	0.004752780002
+attr source  lpi_time
+scalar EEE_intel_test.Host2.lpi_client 	linkLPI_time:timeavg 	0.0038114483023202
+attr source  lpi_time
+scalar EEE_intel_test.Host2.CN 	sentPk:count 	4
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar EEE_intel_test.Host2.CN 	sentPk:sum(packetBytes) 	4
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar EEE_intel_test.Host2.CN 	rcvdPk:count 	4
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar EEE_intel_test.Host2.CN 	rcvdPk:sum(packetBytes) 	4
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"

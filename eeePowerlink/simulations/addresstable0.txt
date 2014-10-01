@@ -1,0 +1,27 @@
+#
+# Initial MAC address table for switchEEE
+#
+# Format:
+#   <hex-address>  <portnumber>
+#
+# where <hex-address> in MAC address in hexadecimal representation,
+# and <portnumber> is the corresponding gate index of the switch.
+#
+# Example:
+#  69ffffff7723    1
+#  21ffeed17764    2
+#  34bcdeff77a0    3
+#
+
+#PLC
+aabbccddee02    0
+#subnet1
+aabbccddee03    1
+aabbccdde1ff    1
+#subnet2
+aabbccdde2ff    3
+#subnet3
+aabbccddee04    2
+aabbccdde3ff    2
+
+

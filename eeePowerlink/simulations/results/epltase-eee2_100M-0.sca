@@ -1,0 +1,727 @@
+version 2
+run eee2_100M-0-20140219-12:00:29-9701
+attr configname eee2_100M
+attr datetime 20140219-12:00:29
+attr experiment eee2_100M
+attr inifile EPL_tii2014.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network eeepowerlink.networks.EPL_tii2014
+attr processid 9701
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar EPL_tii2014.PLC.MN 	sentPk:count 	5400
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar EPL_tii2014.PLC.MN 	sentPk:sum(packetBytes) 	4400
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar EPL_tii2014.PLC.MN 	rcvdPk:count 	2400
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar EPL_tii2014.PLC.MN 	rcvdPk:sum(packetBytes) 	108000
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+scalar EPL_tii2014.PLC.llc 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar EPL_tii2014.PLC.llc 	droppedPkUnknownDSAP:count 	0
+attr interpolationmode  none
+attr source  droppedPkUnknownDSAP
+attr title  "dropped packets unknown DSAP, count"
+scalar EPL_tii2014.PLC.llc 	droppedPkUnknownDSAP:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  droppedPkUnknownDSAP
+attr title  "dropped packets unknown DSAP, sum(packetBytes)"
+scalar EPL_tii2014.PLC.llc 	passedUpPk:count 	2400
+attr interpolationmode  none
+attr source  passedUpPk
+attr title  "packets passed up, count"
+scalar EPL_tii2014.PLC.llc 	passedUpPk:sum(packetBytes) 	108000
+attr interpolationmode  none
+attr source  passedUpPk
+attr title  "packets passed up, sum(packetBytes)"
+scalar EPL_tii2014.PLC.llc 	decapPk:count 	2400
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar EPL_tii2014.PLC.llc 	decapPk:sum(packetBytes) 	108000
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar EPL_tii2014.PLC.llc 	encapPk:count 	6400
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar EPL_tii2014.PLC.llc 	encapPk:sum(packetBytes) 	5400
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar EPL_tii2014.PLC.llc 	dsap:sum 	1
+attr title  "dsap registering, sum"
+scalar EPL_tii2014.PLC.mac 	"simulated time" 	1
+scalar EPL_tii2014.PLC.mac 	full-duplex 	1
+scalar EPL_tii2014.PLC.mac 	"frames/sec sent" 	6400
+scalar EPL_tii2014.PLC.mac 	"frames/sec rcvd" 	2400
+scalar EPL_tii2014.PLC.mac 	"bits/sec sent" 	3276800
+scalar EPL_tii2014.PLC.mac 	"bits/sec rcvd" 	1267200
+scalar EPL_tii2014.PLC.mac 	"rx channel idle (%)" 	98.5792
+scalar EPL_tii2014.PLC.mac 	"rx channel utilization (%)" 	1.4208
+scalar EPL_tii2014.PLC.mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar EPL_tii2014.PLC.mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar EPL_tii2014.PLC.mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar EPL_tii2014.PLC.mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar EPL_tii2014.PLC.mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar EPL_tii2014.PLC.mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar EPL_tii2014.PLC.mac 	rxPkFromHL:count 	6400
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar EPL_tii2014.PLC.mac 	rxPkFromHL:sum(packetBytes) 	409600
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar EPL_tii2014.PLC.mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar EPL_tii2014.PLC.mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar EPL_tii2014.PLC.mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar EPL_tii2014.PLC.mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar EPL_tii2014.PLC.mac 	passedUpPk:count 	2400
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar EPL_tii2014.PLC.mac 	passedUpPk:sum(packetBytes) 	158400
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar EPL_tii2014.PLC.mac 	rxPkOk:count 	2400
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar EPL_tii2014.PLC.mac 	rxPkOk:sum(packetBytes) 	158400
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar EPL_tii2014.PLC.mac 	txPk:count 	6400
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar EPL_tii2014.PLC.mac 	txPk:sum(packetBytes) 	409600
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar EPL_tii2014.PLC.lpi_client 	linkPLPI_time:min 	0.000442119989
+attr source  partial_lpi_time
+scalar EPL_tii2014.PLC.lpi_client 	linkPLPI_time:max 	0.4158519902
+attr source  partial_lpi_time
+scalar EPL_tii2014.PLC.lpi_client 	linkPLPI_time:timeavg 	0.2080787920042
+attr source  partial_lpi_time
+scalar EPL_tii2014.PLC.lpi_client 	linkLPI_time:min 	0
+attr source  lpi_time
+scalar EPL_tii2014.PLC.lpi_client 	linkLPI_time:max 	0.000601660009
+attr source  lpi_time
+scalar EPL_tii2014.PLC.lpi_client 	linkLPI_time:timeavg 	0.000583546349791
+attr source  lpi_time
+scalar EPL_tii2014.Host1.CN 	sentPk:count 	4000
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar EPL_tii2014.Host1.CN 	sentPk:sum(packetBytes) 	45000
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar EPL_tii2014.Host1.CN 	rcvdPk:count 	1000
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar EPL_tii2014.Host1.CN 	rcvdPk:sum(packetBytes) 	1000
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+scalar EPL_tii2014.Host1.llc 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar EPL_tii2014.Host1.llc 	droppedPkUnknownDSAP:count 	1400
+attr interpolationmode  none
+attr source  droppedPkUnknownDSAP
+attr title  "dropped packets unknown DSAP, count"
+scalar EPL_tii2014.Host1.llc 	droppedPkUnknownDSAP:sum(packetBytes) 	92400
+attr interpolationmode  none
+attr source  droppedPkUnknownDSAP
+attr title  "dropped packets unknown DSAP, sum(packetBytes)"
+scalar EPL_tii2014.Host1.llc 	passedUpPk:count 	4000
+attr interpolationmode  none
+attr source  passedUpPk
+attr title  "packets passed up, count"
+scalar EPL_tii2014.Host1.llc 	passedUpPk:sum(packetBytes) 	4000
+attr interpolationmode  none
+attr source  passedUpPk
+attr title  "packets passed up, sum(packetBytes)"
+scalar EPL_tii2014.Host1.llc 	decapPk:count 	4000
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar EPL_tii2014.Host1.llc 	decapPk:sum(packetBytes) 	4000
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar EPL_tii2014.Host1.llc 	encapPk:count 	2000
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar EPL_tii2014.Host1.llc 	encapPk:sum(packetBytes) 	45000
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar EPL_tii2014.Host1.llc 	dsap:sum 	1
+attr title  "dsap registering, sum"
+scalar EPL_tii2014.Host1.mac 	"simulated time" 	1
+scalar EPL_tii2014.Host1.mac 	full-duplex 	1
+scalar EPL_tii2014.Host1.mac 	"frames/sec sent" 	2000
+scalar EPL_tii2014.Host1.mac 	"frames/sec rcvd" 	5400
+scalar EPL_tii2014.Host1.mac 	"bits/sec sent" 	1040000
+scalar EPL_tii2014.Host1.mac 	"bits/sec rcvd" 	2787200
+scalar EPL_tii2014.Host1.mac 	"rx channel idle (%)" 	96.8672
+scalar EPL_tii2014.Host1.mac 	"rx channel utilization (%)" 	3.1328
+scalar EPL_tii2014.Host1.mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar EPL_tii2014.Host1.mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar EPL_tii2014.Host1.mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar EPL_tii2014.Host1.mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar EPL_tii2014.Host1.mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar EPL_tii2014.Host1.mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar EPL_tii2014.Host1.mac 	rxPkFromHL:count 	2000
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar EPL_tii2014.Host1.mac 	rxPkFromHL:sum(packetBytes) 	130000
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar EPL_tii2014.Host1.mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar EPL_tii2014.Host1.mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar EPL_tii2014.Host1.mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar EPL_tii2014.Host1.mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar EPL_tii2014.Host1.mac 	passedUpPk:count 	5400
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar EPL_tii2014.Host1.mac 	passedUpPk:sum(packetBytes) 	348400
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar EPL_tii2014.Host1.mac 	rxPkOk:count 	5400
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar EPL_tii2014.Host1.mac 	rxPkOk:sum(packetBytes) 	348400
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar EPL_tii2014.Host1.mac 	txPk:count 	2000
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar EPL_tii2014.Host1.mac 	txPk:sum(packetBytes) 	130000
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar EPL_tii2014.Host1.lpi_client 	linkPLPI_time:min 	0.000248839992
+attr source  partial_lpi_time
+scalar EPL_tii2014.Host1.lpi_client 	linkPLPI_time:max 	0.00029261999
+attr source  partial_lpi_time
+scalar EPL_tii2014.Host1.lpi_client 	linkPLPI_time:timeavg 	0.0002659764437858
+attr source  partial_lpi_time
+scalar EPL_tii2014.Host1.lpi_client 	linkLPI_time:min 	5.3479999e-05
+attr source  lpi_time
+scalar EPL_tii2014.Host1.lpi_client 	linkLPI_time:max 	0.000642660009
+attr source  lpi_time
+scalar EPL_tii2014.Host1.lpi_client 	linkLPI_time:timeavg 	0.00062455786168718
+attr source  lpi_time
+scalar EPL_tii2014.switch0 	"simulated time" 	1
+scalar EPL_tii2014.switch0 	messages/sec 	12800
+scalar EPL_tii2014.switch0 	pk:count 	12800
+attr interpolationmode  none
+attr source  pk
+attr title  "packets, count"
+scalar EPL_tii2014.switch0 	pk:sum(packetBytes) 	925400
+attr interpolationmode  none
+attr source  pk
+attr title  "packets, sum(packetBytes)"
+scalar EPL_tii2014.Host2.CN 	sentPk:count 	4000
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar EPL_tii2014.Host2.CN 	sentPk:sum(packetBytes) 	45000
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar EPL_tii2014.Host2.CN 	rcvdPk:count 	1000
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar EPL_tii2014.Host2.CN 	rcvdPk:sum(packetBytes) 	1000
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+scalar EPL_tii2014.Host2.llc 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar EPL_tii2014.Host2.llc 	droppedPkUnknownDSAP:count 	1400
+attr interpolationmode  none
+attr source  droppedPkUnknownDSAP
+attr title  "dropped packets unknown DSAP, count"
+scalar EPL_tii2014.Host2.llc 	droppedPkUnknownDSAP:sum(packetBytes) 	92400
+attr interpolationmode  none
+attr source  droppedPkUnknownDSAP
+attr title  "dropped packets unknown DSAP, sum(packetBytes)"
+scalar EPL_tii2014.Host2.llc 	passedUpPk:count 	4000
+attr interpolationmode  none
+attr source  passedUpPk
+attr title  "packets passed up, count"
+scalar EPL_tii2014.Host2.llc 	passedUpPk:sum(packetBytes) 	4000
+attr interpolationmode  none
+attr source  passedUpPk
+attr title  "packets passed up, sum(packetBytes)"
+scalar EPL_tii2014.Host2.llc 	decapPk:count 	4000
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar EPL_tii2014.Host2.llc 	decapPk:sum(packetBytes) 	4000
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar EPL_tii2014.Host2.llc 	encapPk:count 	2000
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar EPL_tii2014.Host2.llc 	encapPk:sum(packetBytes) 	45000
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar EPL_tii2014.Host2.llc 	dsap:sum 	1
+attr title  "dsap registering, sum"
+scalar EPL_tii2014.Host2.mac 	"simulated time" 	1
+scalar EPL_tii2014.Host2.mac 	full-duplex 	1
+scalar EPL_tii2014.Host2.mac 	"frames/sec sent" 	2000
+scalar EPL_tii2014.Host2.mac 	"frames/sec rcvd" 	5400
+scalar EPL_tii2014.Host2.mac 	"bits/sec sent" 	1040000
+scalar EPL_tii2014.Host2.mac 	"bits/sec rcvd" 	2787200
+scalar EPL_tii2014.Host2.mac 	"rx channel idle (%)" 	96.8672
+scalar EPL_tii2014.Host2.mac 	"rx channel utilization (%)" 	3.1328
+scalar EPL_tii2014.Host2.mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar EPL_tii2014.Host2.mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar EPL_tii2014.Host2.mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar EPL_tii2014.Host2.mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar EPL_tii2014.Host2.mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar EPL_tii2014.Host2.mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar EPL_tii2014.Host2.mac 	rxPkFromHL:count 	2000
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar EPL_tii2014.Host2.mac 	rxPkFromHL:sum(packetBytes) 	130000
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar EPL_tii2014.Host2.mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar EPL_tii2014.Host2.mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar EPL_tii2014.Host2.mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar EPL_tii2014.Host2.mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar EPL_tii2014.Host2.mac 	passedUpPk:count 	5400
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar EPL_tii2014.Host2.mac 	passedUpPk:sum(packetBytes) 	348400
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar EPL_tii2014.Host2.mac 	rxPkOk:count 	5400
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar EPL_tii2014.Host2.mac 	rxPkOk:sum(packetBytes) 	348400
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar EPL_tii2014.Host2.mac 	txPk:count 	2000
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar EPL_tii2014.Host2.mac 	txPk:sum(packetBytes) 	130000
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar EPL_tii2014.Host2.lpi_client 	linkPLPI_time:min 	0.000248839992
+attr source  partial_lpi_time
+scalar EPL_tii2014.Host2.lpi_client 	linkPLPI_time:max 	0.00029261999
+attr source  partial_lpi_time
+scalar EPL_tii2014.Host2.lpi_client 	linkPLPI_time:timeavg 	0.0002659764437858
+attr source  partial_lpi_time
+scalar EPL_tii2014.Host2.lpi_client 	linkLPI_time:min 	5.3479999e-05
+attr source  lpi_time
+scalar EPL_tii2014.Host2.lpi_client 	linkLPI_time:max 	0.000642660009
+attr source  lpi_time
+scalar EPL_tii2014.Host2.lpi_client 	linkLPI_time:timeavg 	0.00062455786168718
+attr source  lpi_time
+scalar EPL_tii2014.Host3.CN 	sentPk:count 	1600
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar EPL_tii2014.Host3.CN 	sentPk:sum(packetBytes) 	9000
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar EPL_tii2014.Host3.CN 	rcvdPk:count 	200
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar EPL_tii2014.Host3.CN 	rcvdPk:sum(packetBytes) 	200
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+scalar EPL_tii2014.Host3.llc 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar EPL_tii2014.Host3.llc 	droppedPkUnknownDSAP:count 	2200
+attr interpolationmode  none
+attr source  droppedPkUnknownDSAP
+attr title  "dropped packets unknown DSAP, count"
+scalar EPL_tii2014.Host3.llc 	droppedPkUnknownDSAP:sum(packetBytes) 	145200
+attr interpolationmode  none
+attr source  droppedPkUnknownDSAP
+attr title  "dropped packets unknown DSAP, sum(packetBytes)"
+scalar EPL_tii2014.Host3.llc 	passedUpPk:count 	3200
+attr interpolationmode  none
+attr source  passedUpPk
+attr title  "packets passed up, count"
+scalar EPL_tii2014.Host3.llc 	passedUpPk:sum(packetBytes) 	3200
+attr interpolationmode  none
+attr source  passedUpPk
+attr title  "packets passed up, sum(packetBytes)"
+scalar EPL_tii2014.Host3.llc 	decapPk:count 	3200
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar EPL_tii2014.Host3.llc 	decapPk:sum(packetBytes) 	3200
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar EPL_tii2014.Host3.llc 	encapPk:count 	1200
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar EPL_tii2014.Host3.llc 	encapPk:sum(packetBytes) 	9000
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar EPL_tii2014.Host3.llc 	dsap:sum 	1
+attr title  "dsap registering, sum"
+scalar EPL_tii2014.Host3.mac 	"simulated time" 	1
+scalar EPL_tii2014.Host3.mac 	full-duplex 	1
+scalar EPL_tii2014.Host3.mac 	"frames/sec sent" 	1200
+scalar EPL_tii2014.Host3.mac 	"frames/sec rcvd" 	5400
+scalar EPL_tii2014.Host3.mac 	"bits/sec sent" 	617600
+scalar EPL_tii2014.Host3.mac 	"bits/sec rcvd" 	2800000
+scalar EPL_tii2014.Host3.mac 	"rx channel idle (%)" 	96.8544
+scalar EPL_tii2014.Host3.mac 	"rx channel utilization (%)" 	3.1456
+scalar EPL_tii2014.Host3.mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar EPL_tii2014.Host3.mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar EPL_tii2014.Host3.mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar EPL_tii2014.Host3.mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar EPL_tii2014.Host3.mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar EPL_tii2014.Host3.mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar EPL_tii2014.Host3.mac 	rxPkFromHL:count 	1200
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar EPL_tii2014.Host3.mac 	rxPkFromHL:sum(packetBytes) 	77200
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar EPL_tii2014.Host3.mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar EPL_tii2014.Host3.mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar EPL_tii2014.Host3.mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar EPL_tii2014.Host3.mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar EPL_tii2014.Host3.mac 	passedUpPk:count 	5400
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar EPL_tii2014.Host3.mac 	passedUpPk:sum(packetBytes) 	350000
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar EPL_tii2014.Host3.mac 	rxPkOk:count 	5400
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar EPL_tii2014.Host3.mac 	rxPkOk:sum(packetBytes) 	350000
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar EPL_tii2014.Host3.mac 	txPk:count 	1200
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar EPL_tii2014.Host3.mac 	txPk:sum(packetBytes) 	77200
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar EPL_tii2014.Host3.lpi_client 	linkPLPI_time:min 	0.00029261999
+attr source  partial_lpi_time
+scalar EPL_tii2014.Host3.lpi_client 	linkPLPI_time:max 	0.001765759952
+attr source  partial_lpi_time
+scalar EPL_tii2014.Host3.lpi_client 	linkPLPI_time:timeavg 	0.001051385822384
+attr source  partial_lpi_time
+scalar EPL_tii2014.Host3.lpi_client 	linkLPI_time:min 	5.3479999e-05
+attr source  lpi_time
+scalar EPL_tii2014.Host3.lpi_client 	linkLPI_time:max 	0.000642660009
+attr source  lpi_time
+scalar EPL_tii2014.Host3.lpi_client 	linkLPI_time:timeavg 	0.00062455786168718
+attr source  lpi_time
+scalar EPL_tii2014.Host4.CN 	sentPk:count 	1600
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar EPL_tii2014.Host4.CN 	sentPk:sum(packetBytes) 	9000
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar EPL_tii2014.Host4.CN 	rcvdPk:count 	200
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar EPL_tii2014.Host4.CN 	rcvdPk:sum(packetBytes) 	200
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+scalar EPL_tii2014.Host4.llc 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar EPL_tii2014.Host4.llc 	droppedPkUnknownDSAP:count 	2200
+attr interpolationmode  none
+attr source  droppedPkUnknownDSAP
+attr title  "dropped packets unknown DSAP, count"
+scalar EPL_tii2014.Host4.llc 	droppedPkUnknownDSAP:sum(packetBytes) 	145200
+attr interpolationmode  none
+attr source  droppedPkUnknownDSAP
+attr title  "dropped packets unknown DSAP, sum(packetBytes)"
+scalar EPL_tii2014.Host4.llc 	passedUpPk:count 	3200
+attr interpolationmode  none
+attr source  passedUpPk
+attr title  "packets passed up, count"
+scalar EPL_tii2014.Host4.llc 	passedUpPk:sum(packetBytes) 	3200
+attr interpolationmode  none
+attr source  passedUpPk
+attr title  "packets passed up, sum(packetBytes)"
+scalar EPL_tii2014.Host4.llc 	decapPk:count 	3200
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar EPL_tii2014.Host4.llc 	decapPk:sum(packetBytes) 	3200
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar EPL_tii2014.Host4.llc 	encapPk:count 	1200
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar EPL_tii2014.Host4.llc 	encapPk:sum(packetBytes) 	9000
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar EPL_tii2014.Host4.llc 	dsap:sum 	1
+attr title  "dsap registering, sum"
+scalar EPL_tii2014.Host4.mac 	"simulated time" 	1
+scalar EPL_tii2014.Host4.mac 	full-duplex 	1
+scalar EPL_tii2014.Host4.mac 	"frames/sec sent" 	1200
+scalar EPL_tii2014.Host4.mac 	"frames/sec rcvd" 	5400
+scalar EPL_tii2014.Host4.mac 	"bits/sec sent" 	617600
+scalar EPL_tii2014.Host4.mac 	"bits/sec rcvd" 	2800000
+scalar EPL_tii2014.Host4.mac 	"rx channel idle (%)" 	96.8544
+scalar EPL_tii2014.Host4.mac 	"rx channel utilization (%)" 	3.1456
+scalar EPL_tii2014.Host4.mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar EPL_tii2014.Host4.mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar EPL_tii2014.Host4.mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar EPL_tii2014.Host4.mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar EPL_tii2014.Host4.mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar EPL_tii2014.Host4.mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar EPL_tii2014.Host4.mac 	rxPkFromHL:count 	1200
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar EPL_tii2014.Host4.mac 	rxPkFromHL:sum(packetBytes) 	77200
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar EPL_tii2014.Host4.mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar EPL_tii2014.Host4.mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar EPL_tii2014.Host4.mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar EPL_tii2014.Host4.mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar EPL_tii2014.Host4.mac 	passedUpPk:count 	5400
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar EPL_tii2014.Host4.mac 	passedUpPk:sum(packetBytes) 	350000
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar EPL_tii2014.Host4.mac 	rxPkOk:count 	5400
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar EPL_tii2014.Host4.mac 	rxPkOk:sum(packetBytes) 	350000
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar EPL_tii2014.Host4.mac 	txPk:count 	1200
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar EPL_tii2014.Host4.mac 	txPk:sum(packetBytes) 	77200
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar EPL_tii2014.Host4.lpi_client 	linkPLPI_time:min 	0.00029261999
+attr source  partial_lpi_time
+scalar EPL_tii2014.Host4.lpi_client 	linkPLPI_time:max 	0.001765759952
+attr source  partial_lpi_time
+scalar EPL_tii2014.Host4.lpi_client 	linkPLPI_time:timeavg 	0.0010239230481864
+attr source  partial_lpi_time
+scalar EPL_tii2014.Host4.lpi_client 	linkLPI_time:min 	5.3479999e-05
+attr source  lpi_time
+scalar EPL_tii2014.Host4.lpi_client 	linkLPI_time:max 	0.000642660009
+attr source  lpi_time
+scalar EPL_tii2014.Host4.lpi_client 	linkLPI_time:timeavg 	0.00062455786168718
+attr source  lpi_time

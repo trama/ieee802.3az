@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/eeePowerlink/simulations/results/epltest-dopoPres-*.vec"/>
+    <inputs name="/eeePowerlink/simulations/results/epltest-dopoPres-*.sca"/>
+  </inputs>
+  <datasets>
+    <datasets name="POWER">
+      <items xsi:type="scave:Add" filterPattern="file(/eeePowerlink/simulations/results/epltest-dopoPres-0.vec) AND attr:configname(dopoPres) AND attr:runnumber(0) AND module(EPL_test.Host0.lpi_client) AND name(&quot;EEE-Link Power&quot;)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/eeePowerlink/simulations/results/epltest-dopoPres-0.vec) AND attr:configname(dopoPres) AND attr:runnumber(0) AND module(EPL_test.PLC.lpi_client) AND name(&quot;EEE-Link Power&quot;)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/eeePowerlink/simulations/results/epltest-dopoPres-0.vec) AND attr:configname(dopoPres) AND attr:runnumber(0) AND module(EPL_test.Host1.lpi_client) AND name(&quot;EEE-Link Power&quot;)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/eeePowerlink/simulations/results/epltest-dopoPres-0.vec) AND attr:configname(dopoPres) AND attr:runnumber(0) AND module(EPL_test.switch) AND name(&quot;EEE-Link Power&quot;)" type="VECTOR"/>
+      <items xsi:type="scave:Apply" operation="aggregator">
+        <params name="function" value="sum"/>
+      </items>
+      <items xsi:type="scave:Group">
+        <items xsi:type="scave:Apply" operation="timeavg"/>
+        <items xsi:type="scave:LineChart"/>
+      </items>
+    </datasets>
+  </datasets>
+  <chartSheets>
+    <chartSheets name="default" charts="//@datasets/@datasets.0/@items.5/@items.1"/>
+  </chartSheets>
+</scave:Analysis>

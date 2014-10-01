@@ -1,0 +1,78 @@
+version 2
+run General-0-20130403-22:38:14-28179
+attr configname General
+attr datetime 20130403-22:38:14
+attr experiment General
+attr inifile EPL_test.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network eeepowerlink.networks.EPL_test
+attr processid 28179
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 53  EPL_test.Host0.lpi_client  "EEE-Link Power"  ETV
+vector 54  EPL_test.PLC.lpi_client  "EEE-Link Power"  ETV
+vector 55  EPL_test.Host1.lpi_client  "EEE-Link Power"  ETV
+vector 52  EPL_test.switch  "EEE-Link Power"  ETV
+vector 3  EPL_test.Host0.llc  dsap:vector  ETV
+attr title  "dsap registering, vector"
+vector 37  EPL_test.Host1.llc  dsap:vector  ETV
+attr title  "dsap registering, vector"
+vector 20  EPL_test.PLC.llc  dsap:vector  ETV
+attr title  "dsap registering, vector"
+vector 21  EPL_test.PLC.llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 31  EPL_test.PLC.mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 0  EPL_test.switch  pk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  pk
+attr title  "packets, vector(packetBytes)"
+vector 26  EPL_test.PLC.mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 10  EPL_test.Host0.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 11  EPL_test.Host0.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+0	15	0.000027219999	71
+3	6	0	1
+10	18	0.000054439998	64
+11	18	0.000054439998	64
+20	8	0	1
+21	12	0.0000205	1
+26	16	0.000027219999	64
+31	13	0.0000205	64
+37	7	0	1
+52	2	0	0
+52	2	0	50
+52	2	0	50
+52	2	0	100
+52	2	0	100
+52	2	0	150
+52	17	0.000047719999	150
+52	17	0.000047719999	1500
+53	0	0	0
+53	0	0	50
+54	0	0	0
+54	0	0	50
+54	10	0	50
+54	10	0	50
+54	11	0.0000205	50
+54	11	0.0000205	500
+55	0	0	0
+55	0	0	50

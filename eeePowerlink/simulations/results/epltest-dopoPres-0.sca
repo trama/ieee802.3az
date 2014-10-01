@@ -1,0 +1,411 @@
+version 2
+run dopoPres-0-20130403-22:54:23-29846
+attr configname dopoPres
+attr datetime 20130403-22:54:23
+attr experiment dopoPres
+attr inifile EPL_test.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network eeepowerlink.networks.EPL_test
+attr processid 29846
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar EPL_test.Host0.CN 	sentPk:count 	3336
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar EPL_test.Host0.CN 	sentPk:sum(packetBytes) 	37530
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar EPL_test.Host0.CN 	rcvdPk:count 	834
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar EPL_test.Host0.CN 	rcvdPk:sum(packetBytes) 	834
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+scalar EPL_test.Host0.llc 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar EPL_test.Host0.llc 	droppedPkUnknownDSAP:count 	834
+attr interpolationmode  none
+attr source  droppedPkUnknownDSAP
+attr title  "dropped packets unknown DSAP, count"
+scalar EPL_test.Host0.llc 	droppedPkUnknownDSAP:sum(packetBytes) 	55044
+attr interpolationmode  none
+attr source  droppedPkUnknownDSAP
+attr title  "dropped packets unknown DSAP, sum(packetBytes)"
+scalar EPL_test.Host0.llc 	passedUpPk:count 	3336
+attr interpolationmode  none
+attr source  passedUpPk
+attr title  "packets passed up, count"
+scalar EPL_test.Host0.llc 	passedUpPk:sum(packetBytes) 	3336
+attr interpolationmode  none
+attr source  passedUpPk
+attr title  "packets passed up, sum(packetBytes)"
+scalar EPL_test.Host0.llc 	decapPk:count 	3336
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar EPL_test.Host0.llc 	decapPk:sum(packetBytes) 	3336
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar EPL_test.Host0.llc 	encapPk:count 	1668
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar EPL_test.Host0.llc 	encapPk:sum(packetBytes) 	37530
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar EPL_test.Host0.llc 	dsap:sum 	1
+attr title  "dsap registering, sum"
+scalar EPL_test.Host0.mac 	"simulated time" 	1.000002339984
+scalar EPL_test.Host0.mac 	full-duplex 	1
+scalar EPL_test.Host0.mac 	"frames/sec sent" 	1667.9960969158
+scalar EPL_test.Host0.mac 	"frames/sec rcvd" 	4169.9902422896
+scalar EPL_test.Host0.mac 	"bits/sec sent" 	867357.97039623
+scalar EPL_test.Host0.mac 	"bits/sec rcvd" 	2148378.9728276
+scalar EPL_test.Host0.mac 	"rx channel idle (%)" 	97.584741651666
+scalar EPL_test.Host0.mac 	"rx channel utilization (%)" 	2.4152583483341
+scalar EPL_test.Host0.mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar EPL_test.Host0.mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar EPL_test.Host0.mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar EPL_test.Host0.mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar EPL_test.Host0.mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar EPL_test.Host0.mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar EPL_test.Host0.mac 	rxPkFromHL:count 	1668
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar EPL_test.Host0.mac 	rxPkFromHL:sum(packetBytes) 	108420
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar EPL_test.Host0.mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar EPL_test.Host0.mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar EPL_test.Host0.mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar EPL_test.Host0.mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar EPL_test.Host0.mac 	passedUpPk:count 	4170
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar EPL_test.Host0.mac 	passedUpPk:sum(packetBytes) 	268548
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar EPL_test.Host0.mac 	rxPkOk:count 	4170
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar EPL_test.Host0.mac 	rxPkOk:sum(packetBytes) 	268548
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar EPL_test.Host0.mac 	txPk:count 	1668
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar EPL_test.Host0.mac 	txPk:sum(packetBytes) 	108420
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar EPL_test.PLC.MN 	sentPk:count 	4170
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar EPL_test.PLC.MN 	sentPk:sum(packetBytes) 	3336
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar EPL_test.PLC.MN 	rcvdPk:count 	1668
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar EPL_test.PLC.MN 	rcvdPk:sum(packetBytes) 	75060
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+scalar EPL_test.PLC.llc 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar EPL_test.PLC.llc 	droppedPkUnknownDSAP:count 	0
+attr interpolationmode  none
+attr source  droppedPkUnknownDSAP
+attr title  "dropped packets unknown DSAP, count"
+scalar EPL_test.PLC.llc 	droppedPkUnknownDSAP:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  droppedPkUnknownDSAP
+attr title  "dropped packets unknown DSAP, sum(packetBytes)"
+scalar EPL_test.PLC.llc 	passedUpPk:count 	1668
+attr interpolationmode  none
+attr source  passedUpPk
+attr title  "packets passed up, count"
+scalar EPL_test.PLC.llc 	passedUpPk:sum(packetBytes) 	75060
+attr interpolationmode  none
+attr source  passedUpPk
+attr title  "packets passed up, sum(packetBytes)"
+scalar EPL_test.PLC.llc 	decapPk:count 	1668
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar EPL_test.PLC.llc 	decapPk:sum(packetBytes) 	75060
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar EPL_test.PLC.llc 	encapPk:count 	5004
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar EPL_test.PLC.llc 	encapPk:sum(packetBytes) 	4170
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar EPL_test.PLC.llc 	dsap:sum 	1
+attr title  "dsap registering, sum"
+scalar EPL_test.PLC.mac 	"simulated time" 	1.000002339984
+scalar EPL_test.PLC.mac 	full-duplex 	1
+scalar EPL_test.PLC.mac 	"frames/sec sent" 	5003.9882907475
+scalar EPL_test.PLC.mac 	"frames/sec rcvd" 	1667.9960969158
+scalar EPL_test.PLC.mac 	"bits/sec sent" 	2562042.0048627
+scalar EPL_test.PLC.mac 	"bits/sec rcvd" 	880701.93917155
+scalar EPL_test.PLC.mac 	"rx channel idle (%)" 	99.012546310626
+scalar EPL_test.PLC.mac 	"rx channel utilization (%)" 	0.98745368937417
+scalar EPL_test.PLC.mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar EPL_test.PLC.mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar EPL_test.PLC.mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar EPL_test.PLC.mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar EPL_test.PLC.mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar EPL_test.PLC.mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar EPL_test.PLC.mac 	rxPkFromHL:count 	5004
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar EPL_test.PLC.mac 	rxPkFromHL:sum(packetBytes) 	320256
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar EPL_test.PLC.mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar EPL_test.PLC.mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar EPL_test.PLC.mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar EPL_test.PLC.mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar EPL_test.PLC.mac 	passedUpPk:count 	1668
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar EPL_test.PLC.mac 	passedUpPk:sum(packetBytes) 	110088
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar EPL_test.PLC.mac 	rxPkOk:count 	1668
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar EPL_test.PLC.mac 	rxPkOk:sum(packetBytes) 	110088
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar EPL_test.PLC.mac 	txPk:count 	5004
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar EPL_test.PLC.mac 	txPk:sum(packetBytes) 	320256
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar EPL_test.switch 	"simulated time" 	1.000002339984
+scalar EPL_test.switch 	messages/sec 	8339.9804845791
+scalar EPL_test.switch 	pk:count 	8340
+attr interpolationmode  none
+attr source  pk
+attr title  "packets, count"
+scalar EPL_test.switch 	pk:sum(packetBytes) 	602982
+attr interpolationmode  none
+attr source  pk
+attr title  "packets, sum(packetBytes)"
+scalar EPL_test.Host1.CN 	sentPk:count 	3336
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar EPL_test.Host1.CN 	sentPk:sum(packetBytes) 	37530
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar EPL_test.Host1.CN 	rcvdPk:count 	834
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar EPL_test.Host1.CN 	rcvdPk:sum(packetBytes) 	834
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+scalar EPL_test.Host1.llc 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar EPL_test.Host1.llc 	droppedPkUnknownDSAP:count 	834
+attr interpolationmode  none
+attr source  droppedPkUnknownDSAP
+attr title  "dropped packets unknown DSAP, count"
+scalar EPL_test.Host1.llc 	droppedPkUnknownDSAP:sum(packetBytes) 	55044
+attr interpolationmode  none
+attr source  droppedPkUnknownDSAP
+attr title  "dropped packets unknown DSAP, sum(packetBytes)"
+scalar EPL_test.Host1.llc 	passedUpPk:count 	3336
+attr interpolationmode  none
+attr source  passedUpPk
+attr title  "packets passed up, count"
+scalar EPL_test.Host1.llc 	passedUpPk:sum(packetBytes) 	3336
+attr interpolationmode  none
+attr source  passedUpPk
+attr title  "packets passed up, sum(packetBytes)"
+scalar EPL_test.Host1.llc 	decapPk:count 	3336
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar EPL_test.Host1.llc 	decapPk:sum(packetBytes) 	3336
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar EPL_test.Host1.llc 	encapPk:count 	1668
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar EPL_test.Host1.llc 	encapPk:sum(packetBytes) 	37530
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar EPL_test.Host1.llc 	dsap:sum 	1
+attr title  "dsap registering, sum"
+scalar EPL_test.Host1.mac 	"simulated time" 	1.000002339984
+scalar EPL_test.Host1.mac 	full-duplex 	1
+scalar EPL_test.Host1.mac 	"frames/sec sent" 	1667.9960969158
+scalar EPL_test.Host1.mac 	"frames/sec rcvd" 	4169.9902422896
+scalar EPL_test.Host1.mac 	"bits/sec sent" 	867357.97039623
+scalar EPL_test.Host1.mac 	"bits/sec rcvd" 	2148378.9728276
+scalar EPL_test.Host1.mac 	"rx channel idle (%)" 	97.584741651666
+scalar EPL_test.Host1.mac 	"rx channel utilization (%)" 	2.4152583483341
+scalar EPL_test.Host1.mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar EPL_test.Host1.mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar EPL_test.Host1.mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar EPL_test.Host1.mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar EPL_test.Host1.mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar EPL_test.Host1.mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar EPL_test.Host1.mac 	rxPkFromHL:count 	1668
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar EPL_test.Host1.mac 	rxPkFromHL:sum(packetBytes) 	108420
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar EPL_test.Host1.mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar EPL_test.Host1.mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar EPL_test.Host1.mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar EPL_test.Host1.mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar EPL_test.Host1.mac 	passedUpPk:count 	4170
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar EPL_test.Host1.mac 	passedUpPk:sum(packetBytes) 	268548
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar EPL_test.Host1.mac 	rxPkOk:count 	4170
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar EPL_test.Host1.mac 	rxPkOk:sum(packetBytes) 	268548
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar EPL_test.Host1.mac 	txPk:count 	1668
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar EPL_test.Host1.mac 	txPk:sum(packetBytes) 	108420
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"

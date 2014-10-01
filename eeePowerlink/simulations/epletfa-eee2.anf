@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/eeePowerlink/simulations/results/epletfa-eee2_10G-*.vec"/>
+    <inputs name="/eeePowerlink/simulations/results/epletfa-eee2_10G-*.sca"/>
+    <inputs name="/eeePowerlink/simulations/results/epletfa-eee2_100M-0.sca"/>
+    <inputs name="/eeePowerlink/simulations/results/epletfa-eee2_100M-0.vec"/>
+  </inputs>
+  <datasets>
+    <datasets name="lpi_power">
+      <items xsi:type="scave:Add" filterPattern="module(EPL_etfa.PLC.MN) AND name(&quot;EEE-Link Power&quot;)" type="VECTOR"/>
+      <items xsi:type="scave:Group">
+        <items xsi:type="scave:Apply" operation="timeavg"/>
+        <items xsi:type="scave:LineChart" name="av_power_eee2" lineNameFormat="">
+          <properties name="Graph.Title" value="Average Power Consumption (EEE-2)"/>
+          <properties name="Graph.Title.Font" value="Arial-regular-12"/>
+          <properties name="X.Axis.Title" value="Time [s]"/>
+          <properties name="Y.Axis.Title" value="Average Power [mW]"/>
+          <properties name="Label.Font" value="Arial-regular-10"/>
+          <properties name="Legend.Display" value="true"/>
+          <properties name="Legend.Font" value="Arial-regular-10"/>
+          <properties name="Legend.Position" value="Inside"/>
+          <properties name="Legend.Anchoring" value="NorthEast"/>
+          <properties name="X.Axis.Min" value="0.0"/>
+          <properties name="X.Axis.Max" value="0.15"/>
+          <properties name="Line.Name/eee2_10G-0-20130404-00:49:44-1042 eee2_10G" value="10 Gbps"/>
+          <properties name="Line.Color/eee2_100M-0-20130404-00:04:54-31626 eee2_100M" value="black"/>
+          <properties name="Line.Name/eee2_100M-0-20130404-00:04:54-31626 eee2_100M" value="100 Mbps"/>
+          <properties name="Line.Color/eee2_10G-0-20130404-00:49:44-1042 eee2_10G" value="grey75"/>
+          <properties name="Symbols.Size" value="6"/>
+        </items>
+      </items>
+      <items xsi:type="scave:Group">
+        <items xsi:type="scave:LineChart" name="inst_power_eee2" lineNameFormat="">
+          <properties name="Graph.Title" value="Power Consumption (EEE-2)"/>
+          <properties name="Graph.Title.Font" value="Arial-regular-12"/>
+          <properties name="X.Axis.Title" value="Time [s]"/>
+          <properties name="Y.Axis.Title" value="Power [mW]"/>
+          <properties name="Label.Font" value="Arial-regular-10"/>
+          <properties name="Legend.Display" value="true"/>
+          <properties name="Legend.Font" value="Arial-regular-10"/>
+          <properties name="Legend.Position" value="Inside"/>
+          <properties name="Legend.Anchoring" value="NorthEast"/>
+          <properties name="X.Axis.Min" value="0.0"/>
+          <properties name="X.Axis.Max" value="0.005"/>
+          <properties name="Line.Name/eee2_10G-0-20130404-00:49:44-1042 eee2_10G" value="10 Gbps"/>
+          <properties name="Line.Name/eee2_100M-0-20130404-00:04:54-31626 eee2_100M" value="100 Mbps"/>
+          <properties name="Line.Name//eeePowerlink/simulations/results/epletfa-eee2_10G-0.vec eee2_10G-0-20130404-00:49:44-1042 eee2_10G" value="10 Gbps"/>
+          <properties name="Line.Color//eeePowerlink/simulations/results/epletfa-eee2_100M-0.vec eee2_100M-0-20130404-00:04:54-31626 eee2_100M" value="black"/>
+          <properties name="Line.Name//eeePowerlink/simulations/results/epletfa-eee2_100M-0.vec eee2_100M-0-20130404-00:04:54-31626 eee2_100M" value="100 Mbps"/>
+          <properties name="Symbols.Type//eeePowerlink/simulations/results/epletfa-eee2_10G-0.vec eee2_10G-0-20130404-00:49:44-1042 eee2_10G" value="None"/>
+          <properties name="Line.Color//eeePowerlink/simulations/results/epletfa-eee2_10G-0.vec eee2_10G-0-20130404-00:49:44-1042 eee2_10G" value="grey50"/>
+          <properties name="Symbols.Size" value="2"/>
+        </items>
+      </items>
+    </datasets>
+  </datasets>
+  <chartSheets>
+    <chartSheets name="default" charts="//@datasets/@datasets.0/@items.1/@items.1 //@datasets/@datasets.0/@items.2/@items.0"/>
+  </chartSheets>
+</scave:Analysis>

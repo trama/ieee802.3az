@@ -1,0 +1,543 @@
+version 2
+run General-0-20140224-10:41:42-20260
+attr configname General
+attr datetime 20140224-10:41:42
+attr experiment General
+attr inifile eee_100basetx.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network eeepowerlink.networks.EEE_SwitchedDuplexLAN
+attr processid 20260
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar EEE_SwitchedDuplexLAN.hostA.llc 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar EEE_SwitchedDuplexLAN.hostA.llc 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar EEE_SwitchedDuplexLAN.hostA.llc 	decapPk:count 	1200
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar EEE_SwitchedDuplexLAN.hostA.llc 	decapPk:sum(packetBytes) 	1680000
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.hostA.llc 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar EEE_SwitchedDuplexLAN.hostA.llc 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	"simulated time" 	120.002
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	full-duplex 	1
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	"frames/sec sent" 	0
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	"frames/sec rcvd" 	9.9998333361111
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	"bits/sec sent" 	0
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	"bits/sec rcvd" 	113438.10936484
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	"rx channel idle (%)" 	99.885921901302
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	"rx channel utilization (%)" 	0.11407809869836
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	passedUpPk:count 	1200
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	passedUpPk:sum(packetBytes) 	1701600
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	rxPkOk:count 	1200
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	rxPkOk:sum(packetBytes) 	1701600
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar EEE_SwitchedDuplexLAN.hostA.mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.hostA.etherTrafGen 	sentPk:count 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar EEE_SwitchedDuplexLAN.hostA.etherTrafGen 	sentPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.hostA.etherTrafGen 	rcvdPk:count 	1200
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar EEE_SwitchedDuplexLAN.hostA.etherTrafGen 	rcvdPk:sum(packetBytes) 	1680000
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic EEE_SwitchedDuplexLAN.hostA.etherTrafGen 	endToEndDelay:histogram
+field count 1200
+field mean 0.00027136
+field stddev 3.1894941230576e-11
+field sum 0.325632
+field sqrsum 8.836349952e-05
+field min 0.00027136
+field max 0.00027136
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.49972864	0
+bin	-0.46639530666667	0
+bin	-0.43306197333333	0
+bin	-0.39972864	0
+bin	-0.36639530666667	0
+bin	-0.33306197333333	0
+bin	-0.29972864	0
+bin	-0.26639530666667	0
+bin	-0.23306197333333	0
+bin	-0.19972864	0
+bin	-0.16639530666667	0
+bin	-0.13306197333333	0
+bin	-0.09972864	0
+bin	-0.066395306666667	0
+bin	-0.033061973333333	0
+bin	0.00027136	1200
+bin	0.033604693333333	0
+bin	0.066938026666667	0
+bin	0.10027136	0
+bin	0.13360469333333	0
+bin	0.16693802666667	0
+bin	0.20027136	0
+bin	0.23360469333333	0
+bin	0.26693802666667	0
+bin	0.30027136	0
+bin	0.33360469333333	0
+bin	0.36693802666667	0
+bin	0.40027136	0
+bin	0.43360469333333	0
+bin	0.46693802666667	0
+bin	0.50027136	0
+scalar EEE_SwitchedDuplexLAN.hostA.lpi_client 	linkPLPI_time:min 	0.000219999999
+attr source  partial_lpi_time
+scalar EEE_SwitchedDuplexLAN.hostA.lpi_client 	linkPLPI_time:max 	0.000219999999
+attr source  partial_lpi_time
+scalar EEE_SwitchedDuplexLAN.hostA.lpi_client 	linkPLPI_time:timeavg 	0.000219999999
+attr source  partial_lpi_time
+scalar EEE_SwitchedDuplexLAN.hostA.lpi_client 	linkLPI_time:min 	nan
+attr source  lpi_time
+scalar EEE_SwitchedDuplexLAN.hostA.lpi_client 	linkLPI_time:max 	nan
+attr source  lpi_time
+scalar EEE_SwitchedDuplexLAN.hostA.lpi_client 	linkLPI_time:timeavg 	nan
+attr source  lpi_time
+scalar EEE_SwitchedDuplexLAN.hostB.llc 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar EEE_SwitchedDuplexLAN.hostB.llc 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar EEE_SwitchedDuplexLAN.hostB.llc 	decapPk:count 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar EEE_SwitchedDuplexLAN.hostB.llc 	decapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.hostB.llc 	encapPk:count 	1200
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar EEE_SwitchedDuplexLAN.hostB.llc 	encapPk:sum(packetBytes) 	1680000
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	"simulated time" 	120.002
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	full-duplex 	1
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	"frames/sec sent" 	9.9998333361111
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	"frames/sec rcvd" 	0
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	"bits/sec sent" 	113438.10936484
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	"bits/sec rcvd" 	0
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	"rx channel idle (%)" 	100
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	"rx channel utilization (%)" 	0
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	rxPkFromHL:count 	1200
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	rxPkFromHL:sum(packetBytes) 	1701600
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	txPk:count 	1200
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar EEE_SwitchedDuplexLAN.hostB.mac 	txPk:sum(packetBytes) 	1701600
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.hostB.etherTrafGen 	sentPk:count 	1201
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar EEE_SwitchedDuplexLAN.hostB.etherTrafGen 	sentPk:sum(packetBytes) 	1681400
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.hostB.etherTrafGen 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar EEE_SwitchedDuplexLAN.hostB.etherTrafGen 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic EEE_SwitchedDuplexLAN.hostB.etherTrafGen 	endToEndDelay:histogram
+field count 0
+field mean 0
+field stddev nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar EEE_SwitchedDuplexLAN.hostB.lpi_client 	linkPLPI_time:min 	0.000219999999
+attr source  partial_lpi_time
+scalar EEE_SwitchedDuplexLAN.hostB.lpi_client 	linkPLPI_time:max 	0.426867997599
+attr source  partial_lpi_time
+scalar EEE_SwitchedDuplexLAN.hostB.lpi_client 	linkPLPI_time:timeavg 	0.21371733783392
+attr source  partial_lpi_time
+scalar EEE_SwitchedDuplexLAN.hostB.lpi_client 	linkLPI_time:min 	0.001780000001
+attr source  lpi_time
+scalar EEE_SwitchedDuplexLAN.hostB.lpi_client 	linkLPI_time:max 	0.099644460002
+attr source  lpi_time
+scalar EEE_SwitchedDuplexLAN.hostB.lpi_client 	linkLPI_time:timeavg 	0.099562906285335
+attr source  lpi_time
+scalar EEE_SwitchedDuplexLAN.switch.relayUnit 	"processed frames" 	1200
+scalar EEE_SwitchedDuplexLAN.switch.relayUnit 	"dropped frames" 	0
+scalar EEE_SwitchedDuplexLAN.switch.relayUnit 	droppedBytes:count 	0
+attr title  "Dropped bytes, count"
+scalar EEE_SwitchedDuplexLAN.switch.relayUnit 	droppedBytes:sum 	0
+attr title  "Dropped bytes, sum"
+scalar EEE_SwitchedDuplexLAN.switch.relayUnit 	processedBytes:count 	0
+attr title  "Processed bytes, count"
+scalar EEE_SwitchedDuplexLAN.switch.relayUnit 	processedBytes:sum 	0
+attr title  "Processed bytes, sum"
+scalar EEE_SwitchedDuplexLAN.switch.relayUnit 	usedBufferBytes:max 	nan
+attr title  "Used buffer bytes, max"
+scalar EEE_SwitchedDuplexLAN.switch.relayUnit 	usedBufferBytes:timeavg 	nan
+attr title  "Used buffer bytes, timeavg"
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	"simulated time" 	120.002
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	full-duplex 	1
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	"frames/sec sent" 	9.9998333361111
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	"frames/sec rcvd" 	0
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	"bits/sec sent" 	113438.10936484
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	"bits/sec rcvd" 	0
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	"rx channel idle (%)" 	100
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	"rx channel utilization (%)" 	0
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	rxPkFromHL:count 	1200
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	1701600
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	txPk:count 	1200
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].mac 	txPk:sum(packetBytes) 	1701600
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].lpi_client 	linkPLPI_time:min 	0.000219999999
+attr source  partial_lpi_time
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].lpi_client 	linkPLPI_time:max 	0.426867997599
+attr source  partial_lpi_time
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].lpi_client 	linkPLPI_time:timeavg 	0.21371685188906
+attr source  partial_lpi_time
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].lpi_client 	linkLPI_time:min 	0.001916680001
+attr source  lpi_time
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].lpi_client 	linkLPI_time:max 	0.099644460002
+attr source  lpi_time
+scalar EEE_SwitchedDuplexLAN.switch.eth[0].lpi_client 	linkLPI_time:timeavg 	0.099563020092575
+attr source  lpi_time
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	"simulated time" 	120.002
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	full-duplex 	1
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	"frames/sec sent" 	0
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	"frames/sec rcvd" 	9.9998333361111
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	"bits/sec sent" 	0
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	"bits/sec rcvd" 	113438.10936484
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	"rx channel idle (%)" 	99.885921901302
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	"rx channel utilization (%)" 	0.11407809869836
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	passedUpPk:count 	1200
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	passedUpPk:sum(packetBytes) 	1701600
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	rxPkOk:count 	1200
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	rxPkOk:sum(packetBytes) 	1701600
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].lpi_client 	linkPLPI_time:min 	0.000219999999
+attr source  partial_lpi_time
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].lpi_client 	linkPLPI_time:max 	0.000219999999
+attr source  partial_lpi_time
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].lpi_client 	linkPLPI_time:timeavg 	0.000219999999
+attr source  partial_lpi_time
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].lpi_client 	linkLPI_time:min 	nan
+attr source  lpi_time
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].lpi_client 	linkLPI_time:max 	nan
+attr source  lpi_time
+scalar EEE_SwitchedDuplexLAN.switch.eth[1].lpi_client 	linkLPI_time:timeavg 	nan
+attr source  lpi_time

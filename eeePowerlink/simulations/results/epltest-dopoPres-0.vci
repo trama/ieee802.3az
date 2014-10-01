@@ -1,0 +1,184 @@
+file 3238487 1384351054                                         
+version 2
+run dopoPres-0-20130403-22:54:23-29846
+attr configname dopoPres
+attr datetime 20130403-22:54:23
+attr experiment dopoPres
+attr inifile EPL_test.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network eeepowerlink.networks.EPL_test
+attr processid 29846
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+vector 53  EPL_test.Host0.lpi_client  "EEE-Link Power"  ETV
+53	2522926 277661 0 120100 0 0.999995619985 10010 0 750 3502850 2093342500
+vector 54  EPL_test.PLC.lpi_client  "EEE-Link Power"  ETV
+54	2800587 161903 0 120098 0 0.999982179987 6674 0 500 1834850 842342500
+vector 55  EPL_test.Host1.lpi_client  "EEE-Link Power"  ETV
+55	2962490 275997 0 120101 0 0.999995619985 10010 0 750 3502850 2093342500
+vector 52  EPL_test.switch  "EEE-Link Power"  ETV
+52	2260986 261940 2 120102 0 1.000002339984 8346 -166650 750 -691635750 76694382897500
+vector 3  EPL_test.Host0.llc  dsap:vector  ETV
+attr title "dsap registering, vector"
+3	328902 8 6 6 0 0 1 1 1 1 1
+vector 37  EPL_test.Host1.llc  dsap:vector  ETV
+attr title "dsap registering, vector"
+37	1708968 9 7 7 0 0 1 1 1 1 1
+vector 20  EPL_test.PLC.llc  dsap:vector  ETV
+attr title "dsap registering, vector"
+20	1028971 9 8 8 0 0 1 1 1 1 1
+vector 21  EPL_test.PLC.llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source encapPk
+attr title "packets encapsulated, vector(packetBytes)"
+21	1028980 126308 12 120064 0.0000205 0.999782179988 5004 0 1 4170 4170
+vector 31  EPL_test.PLC.mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+31	1471422 131312 13 120066 0.0000205 0.999782179988 5004 64 64 320256 20496384
+vector 0  EPL_test.switch  pk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source pk
+attr title "packets, vector(packetBytes)"
+0	6036 217470 15 120094 0.000027219999 0.999802339985 8340 71 74 602982 43602354
+vector 26  EPL_test.PLC.mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+26	1245614 135482 16 120075 0.000027219999 0.999795619986 5004 64 64 320256 20496384
+vector 10  EPL_test.Host0.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+10	604109 112901 18 120072 0.000054439998 0.999795619986 4170 64 66 268548 17297160
+vector 11  EPL_test.Host0.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+11	717010 112901 18 120072 0.000054439998 0.999795619986 4170 64 66 268548 17297160
+vector 44  EPL_test.Host1.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+44	1992520 112068 19 120073 0.000054439998 0.999795619986 4170 64 66 268548 17297160
+vector 45  EPL_test.Host1.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+45	2104588 112068 19 120073 0.000054439998 0.999795619986 4170 64 66 268548 17297160
+vector 5  EPL_test.Host0.llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source decapPk
+attr title "packets decapsulated, vector(packetBytes)"
+5	371571 83647 20 120076 0.000054439998 0.999795619986 3336 1 1 3336 3336
+vector 6  EPL_test.Host0.llc  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source passedUpPk
+attr title "packets passed up, vector(packetBytes)"
+6	455218 83647 20 120076 0.000054439998 0.999795619986 3336 1 1 3336 3336
+vector 39  EPL_test.Host1.llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source decapPk
+attr title "packets decapsulated, vector(packetBytes)"
+39	1752472 86151 21 120077 0.000054439998 0.999795619986 3336 1 1 3336 3336
+vector 40  EPL_test.Host1.llc  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source passedUpPk
+attr title "packets passed up, vector(packetBytes)"
+40	1838623 86151 21 120077 0.000054439998 0.999795619986 3336 1 1 3336 3336
+vector 19  EPL_test.PLC.MN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source sentPk
+attr title "packets sent, vector(packetBytes)"
+19	920238 108733 34 120060 0.000075639998 0.999782179988 4170 0 1 3336 3336
+vector 1  EPL_test.Host0.CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rcvdPk
+attr title "packets received, vector(packetBytes)"
+1	223506 20911 61 120013 0.000104219994 0.999704219994 834 1 1 834 834
+vector 2  EPL_test.Host0.CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source sentPk
+attr title "packets sent, vector(packetBytes)"
+2	244417 84485 61 120080 0.000104219994 0.999795619986 3336 0 45 37530 1688850
+vector 4  EPL_test.Host0.llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source encapPk
+attr title "packets encapsulated, vector(packetBytes)"
+4	328910 42661 67 120086 0.000122719994 0.999795619986 1668 0 45 37530 1688850
+vector 14  EPL_test.Host0.mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+14	829911 45164 68 120088 0.000122719994 0.999795619986 1668 64 66 108420 7048968
+vector 9  EPL_test.Host0.mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+9	560613 43496 71 120093 0.000129599993 0.999802339985 1668 64 66 108420 7048968
+vector 27  EPL_test.PLC.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+27	1381096 45163 73 120054 0.000136479992 0.999782179988 1668 66 66 110088 7265808
+vector 28  EPL_test.PLC.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+28	1426259 45163 73 120054 0.000136479992 0.999782179988 1668 66 66 110088 7265808
+vector 22  EPL_test.PLC.llc  decapPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source decapPk
+attr title "packets decapsulated, vector(packetBytes)"
+22	1155288 45163 75 120056 0.000136479992 0.999782179988 1668 45 45 75060 3377700
+vector 23  EPL_test.PLC.llc  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source passedUpPk
+attr title "packets passed up, vector(packetBytes)"
+23	1200451 45163 75 120056 0.000136479992 0.999782179988 1668 45 45 75060 3377700
+vector 41  EPL_test.Host1.llc  droppedPkUnknownDSAP:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source droppedPkUnknownDSAP
+attr title "dropped packets unknown DSAP, vector(packetBytes)"
+41	1924774 22581 76 120028 0.000136479992 0.999736479992 834 66 66 55044 3632904
+vector 18  EPL_test.PLC.MN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rcvdPk
+attr title "packets received, vector(packetBytes)"
+18	875075 45163 78 120059 0.000136479992 0.999782179988 1668 45 45 75060 3377700
+vector 35  EPL_test.Host1.CN  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rcvdPk
+attr title "packets received, vector(packetBytes)"
+35	1602734 20913 90 120042 0.00014991999 0.99974991999 834 1 1 834 834
+vector 36  EPL_test.Host1.CN  sentPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source sentPk
+attr title "packets sent, vector(packetBytes)"
+36	1623647 85321 90 120081 0.00014991999 0.999795619986 3336 0 45 37530 1688850
+vector 38  EPL_test.Host1.llc  encapPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source encapPk
+attr title "packets encapsulated, vector(packetBytes)"
+38	1708977 43495 96 120087 0.00016841999 0.999795619986 1668 0 45 37530 1688850
+vector 48  EPL_test.Host1.mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+48	2216656 44330 97 120089 0.00016841999 0.999795619986 1668 64 66 108420 7048968
+vector 43  EPL_test.Host1.mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+43	1947355 45165 100 120095 0.000175299989 0.999802339985 1668 64 66 108420 7048968
+vector 7  EPL_test.Host0.llc  droppedPkUnknownDSAP:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source droppedPkUnknownDSAP
+attr title "dropped packets unknown DSAP, vector(packetBytes)"
+7	538865 21748 105 120057 0.000182179988 0.999782179988 834 66 66 55044 3632904
